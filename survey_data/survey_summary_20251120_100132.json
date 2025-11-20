@@ -1,0 +1,15 @@
+{
+  "scan_date": "2025-11-20T10:01:32.174172",
+  "total_videos": 17855,
+  "total_size_bytes": 61965504831242,
+  "total_size_gb": 57709.87,
+  "total_size_tb": 56.36,
+  "top_level_directories": 18,
+  "extensions": {
+    ".mp4": 14253,
+    ".m4v": 863,
+    ".mov": 2731,
+    ".mpg": 7,
+    ".avi": 1
+  }
+}
