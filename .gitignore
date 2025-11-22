@@ -1,62 +1,37 @@
+# Databases (too large for Git)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+*.pid
+
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
+*.so
+*.egg
 *.egg-info/
 dist/
 build/
-
-# Database files
-*.db
-*.db-journal
-*.sqlite
-*.sqlite3
-
-# Log files
-*.log
-*.txt
-
-# Survey data
-survey_data/
-phase1_candidates.json
-
-# Audio files (stored on Pegasus, not in repo)
-audio_extracts/
-*.mp3
-*.m4a
-*.wav
-
-# Environment variables
-.env
-.env.local
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# macOS
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
+
+# Extracted audio (on Pegasus drive)
+/ExtractedAudio/
 
 # Temporary files
-*.tmp
-*.temp
-tmp/
-temp/
-
-# Web interface (when created)
-web/node_modules/
-web/dist/
-web/.next/
-
-# Thumbnails
-*.jpg
-*.jpeg
-*.png
-*.gif
+/tmp/
+nohup.out

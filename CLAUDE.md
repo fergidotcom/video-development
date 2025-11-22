@@ -173,6 +173,43 @@ cd ~/Library/CloudStorage/Dropbox/Fergi/VideoDev
 - Extract all available metadata
 - Calculate accurate transcription costs
 
+### Long-Running Operations Protection
+
+**⚠️ AUTO-COMPACT PROTECTION**
+
+Survey and transcription operations MUST use nohup protection to prevent Mac Claude Code auto-compact from terminating multi-hour processes.
+
+**Production operations (MANDATORY nohup):**
+```bash
+# Pegasus drive survey (multi-hour operation)
+nohup python survey_pegasus.py > logs/$(date +%Y%m%d_%H%M%S)_survey.log 2>&1 &
+
+# Batch transcription pipeline (API costs, hours of processing)
+nohup python transcribe_batch.py > logs/$(date +%Y%m%d_%H%M%S)_transcribe.log 2>&1 &
+
+# Or use the convenience wrapper
+run-protected.sh python survey_pegasus.py
+```
+
+**Monitor progress:**
+```bash
+tail -f logs/[latest_log]
+ps aux | grep python
+```
+
+**Why this matters:**
+- **Survey operations:** Multi-hour directory traversal, metadata extraction
+- **Transcription pipeline:** API costs accumulate, must complete without interruption
+- **Work investment:** Cannot afford mid-process interruptions
+- **Rate limits:** Incomplete runs waste API quota and billing
+
+**Development/testing (small samples):**
+- Run normally for quick tests: `python survey_pegasus.py --limit 10`
+- Use for testing on small directory samples
+- Ctrl+C interruption is fine for development
+
+**Decision rule:** Would losing this mid-way waste >10 minutes of work? If YES → use nohup.
+
 ### Transcription Strategy
 - Batch processing to manage costs
 - Priority order (user-specified categories first)
