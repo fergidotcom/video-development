@@ -69,6 +69,77 @@ Survey, transcribe, and index archived video content currently stored on Pegasus
 
 ---
 
+## Voice & Face Recognition
+
+**Specification:** VoiceFaceRecognition_VideoDev_Integration.md
+
+**Integration Overview:**
+This project uses unsupervised clustering for speaker discovery in 652 archived videos with unknown speakers.
+
+**Key Features:**
+- **Transcription Pipeline:** Whisper → Pyannote diarization → speaker clustering
+- **Cluster Review:** Mobile-first UI for speaker/face identification
+- **Transcript Annotation:** Link speaker labels to identified persons
+- **Progressive Learning:** Convert identified clusters to supervised training data
+
+**Unsupervised Clustering:**
+- **Speaker Clustering:** DBSCAN algorithm on ECAPA-TDNN embeddings
+- **Face Clustering:** Agglomerative Hierarchical Clustering on face embeddings
+- **Human-in-Loop:** User reviews 3-5 sample clips per cluster and identifies speakers
+- **Conversion:** Once identified, cluster becomes training data for future auto-identification
+
+**Cluster Review Interface (Mobile-First):**
+- **Audio Samples:** 3-5 clips from cluster with playback controls
+- **Waveform Visualization:** Real-time audio waveform display
+- **AI Suggestions:** Best match candidates with confidence scores (if similarity >0.70)
+- **User Actions:**
+  - Select existing person from searchable list
+  - Create new person (add to registry)
+  - Skip cluster (review later)
+  - Merge clusters (same person incorrectly split)
+  - Split cluster (different people incorrectly merged)
+
+**Transcript Integration:**
+- **Speaker Labels:** `[Speaker_0 00:15-00:32]: This is the transcribed text...`
+- **Inline Identification:** Tap speaker label → bottom sheet with ID options
+- **Automatic Update:** Selecting person updates all segments with that speaker
+- **Search:** Find all segments where specific person spoke
+
+**Database Schema:**
+- `speaker_segments` - Diarization results with cluster links
+- `speaker_embeddings` - 192-512D embeddings per segment
+- `unknown_clusters` - Discovered speaker clusters
+- `face_detections` - Sampled frame detections linked to clusters
+- `transcripts` - Whisper output linked to speaker segments
+
+**Processing Pipeline:**
+1. Extract audio from video (16kHz mono WAV)
+2. Run Whisper transcription ($0.006/minute)
+3. Run Pyannote diarization (identify speaker segments)
+4. Extract speaker embeddings (ECAPA-TDNN)
+5. Cluster embeddings (DBSCAN, epsilon=0.6, min_samples=3)
+6. Link transcript segments to speakers
+7. Present clusters for user identification
+
+**Technical Details:**
+- **Diarization:** Pyannote.audio 3.1+ (2.5% real-time factor on GPU)
+- **Embeddings:** ECAPA-TDNN (192-512D vectors, 768-2048 bytes)
+- **Clustering:** DBSCAN with cosine distance metric
+- **Face Detection:** ByteTrack or StrongSORT for video tracking
+- **Multimodal:** Late fusion of face + voice scores with dynamic quality weighting
+
+**Batch Processing:**
+- Process 652 videos in batches with nohup protection
+- Estimated cost: $50-200 for Whisper API (other processing free, local)
+- Estimated clusters: 20-50 unique speakers across archive
+- Review time: 2-3 hours to identify all clusters
+
+**Implementation Status:** ✅ Specification Complete, Ready for Implementation
+
+**See:** `VoiceFaceRecognition_VideoDev_Integration.md` for complete implementation guide
+
+---
+
 ## Technical Approach
 
 ### Phase 1: Survey (CURRENT)
