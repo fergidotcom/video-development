@@ -69,6 +69,52 @@ Survey, transcribe, and index archived video content currently stored on Pegasus
 
 ---
 
+## Video Compression Pipeline ⚠️ CRITICAL
+
+**USE COMPRESSOR, NOT FFMPEG**
+
+The Pegasus video compression pipeline uses **macOS Compressor** with Apple hardware acceleration (M2), NOT FFmpeg.
+
+### Correct Script: `compressor_cli_batch.py`
+
+```bash
+# Open Compressor app first
+open /Applications/Compressor.app
+
+# Start compression pipeline (background, interruptible)
+cd ~/Library/CloudStorage/Dropbox/Fergi/VideoDev
+nohup python3 compressor_cli_batch.py > logs/$(date +%Y%m%d_%H%M%S)_compressor_cli.log 2>&1 &
+echo $! > logs/compression_pid.txt
+```
+
+### DO NOT USE These Scripts for Production:
+- ❌ `compress_largest_first.py` - Uses FFmpeg (slow, software encoding)
+- ❌ `compress_high_res_videos.py` - Uses FFmpeg
+
+### Why Compressor:
+- **M2 Hardware Acceleration:** 754MB file in 1m40s (tested Dec 5, 2025)
+- **Apple ProRes/H.265:** Better quality at smaller sizes
+- **Batch Processing:** Handles queue automatically
+
+### Graceful Interruption (for disconnecting Pegasus):
+```bash
+# Stop after current file completes
+kill $(cat logs/compression_pid.txt)
+```
+
+### Monitor Progress:
+```bash
+tail -f logs/*_compressor_cli.log
+ps aux | grep compressor_cli_batch | grep -v grep
+```
+
+### Output Location:
+- Compressed files: `/Volumes/Promise Pegasus/_compressor_output/`
+- Original files: PRESERVED (not deleted)
+- Progress tracking: `logs/compressor_cli_progress.json`
+
+---
+
 ## Voice & Face Recognition
 
 **Specification:** VoiceFaceRecognition_VideoDev_Integration.md
@@ -334,5 +380,5 @@ ps aux | grep python
 ---
 
 **Project Directory:** `/Users/joeferguson/Library/CloudStorage/Dropbox/Fergi/VideoDev`
-**Last Updated:** November 20, 2025
+**Last Updated:** December 5, 2025
 **Maintained by:** FergiDotCom Video Development Team
