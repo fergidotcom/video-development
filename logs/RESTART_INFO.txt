@@ -1,0 +1,40 @@
+COMPRESSION PIPELINE - RESTART INFO
+====================================
+Stopped: 2025-12-06 ~13:45 (graceful shutdown for Pegasus dismount)
+
+PROGRESS AT SHUTDOWN:
+- Completed: 1723 videos
+- Failed: 1 video
+- Last video in queue: 1725/2122 (180329ToSenseiVinnyFromHaridwarSony.MP4)
+- Remaining: ~397 videos
+
+IMPORTANT:
+The progress.json file tracks all completed videos.
+When you restart, the script will automatically skip already-completed videos.
+
+TO RESTART AFTER REMOUNTING PEGASUS:
+=====================================
+
+1. Mount Pegasus drive
+
+2. Open Compressor app first:
+   open /Applications/Compressor.app
+
+3. Restart the compression pipeline:
+   cd ~/Library/CloudStorage/Dropbox/Fergi/VideoDev
+   nohup python3 compressor_cli_batch.py > logs/$(date +%Y%m%d_%H%M%S)_compressor_cli.log 2>&1 &
+   echo $! > logs/compression_pid.txt
+
+4. Monitor progress:
+   tail -f logs/*_compressor_cli.log
+
+TO GRACEFULLY STOP AGAIN:
+=========================
+kill $(cat logs/compression_pid.txt)
+# Wait for current job to finish
+# Then quit Compressor
+
+FILES:
+- Progress tracking: logs/compressor_cli_progress.json
+- Latest log: logs/20251205_173646_compressor_cli.log
+- Output folder: /Volumes/Promise Pegasus/_compressor_output/
