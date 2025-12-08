@@ -35,8 +35,9 @@ PRESET_PATH = "/Applications/Compressor.app/Contents/Resources/Settings/Website 
 
 # Batch settings
 MAX_CONCURRENT_JOBS = 3  # Compressor can handle multiple jobs
-POLL_INTERVAL_SEC = 30   # How often to check for completion
+POLL_INTERVAL_SEC = 10   # How often to check for completion (reduced from 30)
 JOB_TIMEOUT_MIN = 180    # Max time per job (3 hours for huge files)
+MIN_FILE_SIZE_MB = 1     # Skip files smaller than this (likely not real videos)
 
 def log(msg):
     """Print timestamped log message."""
@@ -92,10 +93,25 @@ def submit_job(input_path, output_path):
         log(f"ERROR submitting job: {e}")
         return False
 
-def wait_for_output(output_path, timeout_min=JOB_TIMEOUT_MIN):
-    """Wait for output file to appear and be complete."""
+def wait_for_output(output_path, input_size_mb, timeout_min=JOB_TIMEOUT_MIN):
+    """Wait for output file to appear and be complete.
+
+    Uses dynamic timeout based on input file size:
+    - Files < 100MB: 5 min timeout (should complete in seconds)
+    - Files 100MB-1GB: 30 min timeout
+    - Files > 1GB: full timeout (180 min)
+    """
     start = time.time()
-    timeout_sec = timeout_min * 60
+
+    # Dynamic timeout based on input size
+    if input_size_mb < 100:
+        timeout_sec = 5 * 60  # 5 minutes for small files
+    elif input_size_mb < 1024:
+        timeout_sec = 30 * 60  # 30 minutes for medium files
+    else:
+        timeout_sec = timeout_min * 60  # Full timeout for large files
+
+    log(f"Timeout set to {timeout_sec/60:.0f} min for {input_size_mb:.0f}MB file")
 
     while time.time() - start < timeout_sec:
         if os.path.exists(output_path):
@@ -248,6 +264,21 @@ def main():
             save_progress(progress)
             continue
 
+        # Skip if source file no longer exists
+        if not os.path.exists(video['path']):
+            log(f"SKIPPING: Source file no longer exists")
+            progress['skipped'].append(video['path'])
+            save_progress(progress)
+            continue
+
+        # Skip files that are too small (likely not real videos)
+        size_mb = video['size_bytes'] / (1024 * 1024)
+        if size_mb < MIN_FILE_SIZE_MB:
+            log(f"SKIPPING: File too small ({size_mb:.2f}MB < {MIN_FILE_SIZE_MB}MB minimum)")
+            progress['skipped'].append(video['path'])
+            save_progress(progress)
+            continue
+
         # Submit job
         log("Submitting to Compressor...")
         start_time = time.time()
@@ -256,7 +287,7 @@ def main():
             # Wait for completion
             log("Waiting for completion...")
 
-            if wait_for_output(output_path):
+            if wait_for_output(output_path, size_mb):
                 elapsed = time.time() - start_time
                 output_size = os.path.getsize(output_path) / (1024**2)
                 input_size = video['size_bytes'] / (1024**2)
