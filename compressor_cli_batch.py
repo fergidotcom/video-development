@@ -36,7 +36,7 @@ PRESET_PATH = "/Applications/Compressor.app/Contents/Resources/Settings/Website 
 # Batch settings
 MAX_CONCURRENT_JOBS = 3  # Compressor can handle multiple jobs
 POLL_INTERVAL_SEC = 10   # How often to check for completion (reduced from 30)
-JOB_TIMEOUT_MIN = 180    # Max time per job (3 hours for huge files)
+JOB_TIMEOUT_MIN = 300    # Max time per job (5 hours for huge 60-90GB files)
 MIN_FILE_SIZE_MB = 1     # Skip files smaller than this (likely not real videos)
 
 def log(msg):
@@ -74,7 +74,12 @@ def get_active_jobs():
     return active
 
 def submit_job(input_path, output_path):
-    """Submit a single job to Compressor via CLI."""
+    """Submit a single job to Compressor via CLI.
+
+    Returns: (success, error_message)
+    - (True, None) if job submitted successfully
+    - (False, error_msg) if submission failed
+    """
     cmd = [
         COMPRESSOR_PATH,
         "-batchname", "AutoBatch",
@@ -85,13 +90,34 @@ def submit_job(input_path, output_path):
 
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
-        if "jobID" in result.stderr or "jobID" in result.stdout:
-            return True
-        log(f"Job submission output: {result.stderr}")
-        return True  # Assume success if no error
+        output = result.stderr + result.stdout
+
+        # Check for known error patterns that mean the job won't process
+        error_patterns = [
+            "Tilt value is invalid",
+            "Error:",
+            "Errors:",
+            "failed",
+            "cannot be opened",
+            "invalid",
+        ]
+
+        for pattern in error_patterns:
+            if pattern.lower() in output.lower():
+                # Check if it's a real error (not just in a path name)
+                if "Errors:" in output or "Error:" in output:
+                    log(f"Job submission error: {output.strip()}")
+                    return (False, output.strip())
+
+        if "jobID" in output:
+            return (True, None)
+
+        # No error detected, assume success
+        log(f"Job submission output: {output.strip()}")
+        return (True, None)
     except Exception as e:
         log(f"ERROR submitting job: {e}")
-        return False
+        return (False, str(e))
 
 def wait_for_output(output_path, input_size_mb, timeout_min=JOB_TIMEOUT_MIN):
     """Wait for output file to appear and be complete.
@@ -161,12 +187,13 @@ def load_video_list():
     return videos
 
 def get_unique_videos(videos):
-    """Return only unique videos (dedupe by filename+size)."""
+    """Return only unique videos (dedupe by filename+size, case-insensitive)."""
     seen = {}
     unique = []
 
     for v in videos:
-        key = (v['filename'], v['size_bytes'])
+        # Case-insensitive filename for deduplication
+        key = (v['filename'].lower(), v['size_bytes'])
         if key not in seen:
             seen[key] = v['path']
             unique.append(v)
@@ -231,10 +258,14 @@ def main():
     # Load progress
     progress = load_progress()
     completed_paths = set(progress['completed'])
+    failed_paths = set(progress.get('failed', []))
+    skipped_paths = set(progress.get('skipped', []))
 
-    # Filter already processed
-    remaining = [v for v in videos if v['path'] not in completed_paths]
+    # Filter already processed (completed, failed, or skipped)
+    already_done = completed_paths | failed_paths | skipped_paths
+    remaining = [v for v in videos if v['path'] not in already_done]
     log(f"Remaining to process: {len(remaining)}")
+    log(f"Already done: {len(completed_paths)} completed, {len(failed_paths)} failed, {len(skipped_paths)} skipped")
 
     if not remaining:
         log("All videos have been processed!")
@@ -283,7 +314,9 @@ def main():
         log("Submitting to Compressor...")
         start_time = time.time()
 
-        if submit_job(video['path'], output_path):
+        success, error_msg = submit_job(video['path'], output_path)
+
+        if success:
             # Wait for completion
             log("Waiting for completion...")
 
@@ -303,7 +336,7 @@ def main():
                 progress['failed'].append(video['path'])
                 total_failed += 1
         else:
-            log("Failed to submit job")
+            log(f"SKIPPING: Compressor rejected file - {error_msg}")
             progress['failed'].append(video['path'])
             total_failed += 1
 
