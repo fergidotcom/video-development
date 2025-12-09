@@ -1,0 +1,35 @@
+{
+  "generated": "2025-12-09T09:08:46.551245",
+  "description": "Files that need to be restored from cold storage due to collision errors",
+  "total_files": 4,
+  "files": [
+    {
+      "original_path": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0008.MP4",
+      "current_wrong_file": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0008.mov",
+      "expected_output": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0008_1080p.mov",
+      "current_hash": "4f82a90db1d7d0053ea4e69ba6cf4d96",
+      "needed_hash": "5f178024994990092b906e5374ab3755"
+    },
+    {
+      "original_path": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0008.MP4",
+      "current_wrong_file": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0008.mov",
+      "expected_output": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0008_1080p.mov",
+      "current_hash": "21a58a56fc178bc5313733a698c2d438",
+      "needed_hash": "5f178024994990092b906e5374ab3755"
+    },
+    {
+      "original_path": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera1/C0001.MP4",
+      "current_wrong_file": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera1/C0001.mov",
+      "expected_output": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0001_1080p.mov",
+      "current_hash": "a16184289851e5454d5e2ae7b1be681a",
+      "needed_hash": "0d5b52e63ae9ebd2a8204deba92d8da9"
+    },
+    {
+      "original_path": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0001.MP4",
+      "current_wrong_file": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0001.mov",
+      "expected_output": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0001_1080p.mov",
+      "current_hash": "1334cece497b5d10dfdbb503135e2b32",
+      "needed_hash": "0d5b52e63ae9ebd2a8204deba92d8da9"
+    }
+  ]
+}

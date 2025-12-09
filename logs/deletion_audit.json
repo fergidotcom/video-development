@@ -1,0 +1,1473 @@
+{
+  "deleted": [],
+  "skipped": [],
+  "failed_verification": [
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180312EditingAndEditingVillageWalk/Mevo3.MP4",
+      "status": "failed_verification",
+      "reason": "Compressed too small (459.39 KB < 1MB)",
+      "original_size": 2193072,
+      "compressed_size": 470417,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo3_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0011.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.614%) - compressed may be corrupt",
+      "original_size": 1130370148,
+      "compressed_size": 6937885,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/REC_0011.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.614%) - compressed may be corrupt",
+      "original_size": 1130370148,
+      "compressed_size": 6937885,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0011.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.558%) - compressed may be corrupt",
+      "original_size": 1220889545,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/C0011.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.558%) - compressed may be corrupt",
+      "original_size": 1220889545,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180315DinnerAndAMovie/Mevo4.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.651%) - compressed may be corrupt",
+      "original_size": 1234777392,
+      "compressed_size": 8033706,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo4_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180315DinnerAndAMovie/Original Media/Mevo4.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.651%) - compressed may be corrupt",
+      "original_size": 1234777392,
+      "compressed_size": 8033706,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo4_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Camera1/C0013.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.908%) - compressed may be corrupt",
+      "original_size": 1252200417,
+      "compressed_size": 11371148,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/C0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.908%) - compressed may be corrupt",
+      "original_size": 1252200417,
+      "compressed_size": 11371148,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180303PondicherryBRoll/C0003.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.728%) - compressed may be corrupt",
+      "original_size": 1302563483,
+      "compressed_size": 9476786,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180303PondicherryBRoll/Original Media/C0003.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.728%) - compressed may be corrupt",
+      "original_size": 1302563483,
+      "compressed_size": 9476786,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0009.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.653%) - compressed may be corrupt",
+      "original_size": 1314330341,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317CanalWalk/Original Media/C0009.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.653%) - compressed may be corrupt",
+      "original_size": 1314330341,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0009.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.647%) - compressed may be corrupt",
+      "original_size": 1327600251,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0009.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.647%) - compressed may be corrupt",
+      "original_size": 1327600251,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoodsToTeaBungalows/REC_0016.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.602%) - compressed may be corrupt",
+      "original_size": 1331448874,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180306ChandysWindyWoodsToTeaBungalows/Original Media/REC_0016.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.602%) - compressed may be corrupt",
+      "original_size": 1331448874,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0012.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.426%) - compressed may be corrupt",
+      "original_size": 1334282818,
+      "compressed_size": 5678412,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317CanalWalk/Original Media/C0012.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.426%) - compressed may be corrupt",
+      "original_size": 1334282818,
+      "compressed_size": 5678412,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera1/C0009.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.633%) - compressed may be corrupt",
+      "original_size": 1356372942,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0013.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.304%) - compressed may be corrupt",
+      "original_size": 1361815627,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/REC_0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.304%) - compressed may be corrupt",
+      "original_size": 1361815627,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180313VillageWalkAfterRushHour/REC_0013.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.303%) - compressed may be corrupt",
+      "original_size": 1366704945,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180313VillageWalkAfterRushHour/Original Media/REC_0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.303%) - compressed may be corrupt",
+      "original_size": 1366704945,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180306MunnarTeaBungalow/180308TeaBungalow.fcpbundle/MorningRun/Original Media/REC_0011.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.457%) - compressed may be corrupt",
+      "original_size": 1517953908,
+      "compressed_size": 6937885,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180309MorningRun/REC_0011.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.457%) - compressed may be corrupt",
+      "original_size": 1517953908,
+      "compressed_size": 6937885,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0009.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.561%) - compressed may be corrupt",
+      "original_size": 1529478211,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/C0009.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.561%) - compressed may be corrupt",
+      "original_size": 1529478211,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180315DinnerAndAMovie/Mevo2.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.552%) - compressed may be corrupt",
+      "original_size": 1542426765,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180315DinnerAndAMovie/Original Media/Mevo2.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.552%) - compressed may be corrupt",
+      "original_size": 1542426765,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180331BaptismOfStJohnHaridwar/C0006.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.368%) - compressed may be corrupt",
+      "original_size": 1552887272,
+      "compressed_size": 5712634,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0006_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180331BaptismOfStJohnHaridwar/Original Media/C0006.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.368%) - compressed may be corrupt",
+      "original_size": 1552887272,
+      "compressed_size": 5712634,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0006_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0016.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.501%) - compressed may be corrupt",
+      "original_size": 1600384069,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180331HaridwarToChandrigarh/Original Media/REC_0016.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.501%) - compressed may be corrupt",
+      "original_size": 1600384069,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180315LastMorningChatWithMuralidheoran/Mevo1.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.379%) - compressed may be corrupt",
+      "original_size": 1601557116,
+      "compressed_size": 6075048,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo1_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180315LastMorningChatWithMuralidheoran/Original Media/Mevo1.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.379%) - compressed may be corrupt",
+      "original_size": 1601557116,
+      "compressed_size": 6075048,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo1_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoods/Mevo2.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.529%) - compressed may be corrupt",
+      "original_size": 1611904925,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180306ChandysWindyWoods/Original Media/Mevo2.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.529%) - compressed may be corrupt",
+      "original_size": 1611904925,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/Walkabout2018Final.fcpbundle/180326ZMindrollingCeremonies/Original Media/REC_0011.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.430%) - compressed may be corrupt",
+      "original_size": 1612162457,
+      "compressed_size": 6937885,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180313TripToTown/Mevo1.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.356%) - compressed may be corrupt",
+      "original_size": 1707346908,
+      "compressed_size": 6075048,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo1_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180313TripToTown/Original Media/Mevo1.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.356%) - compressed may be corrupt",
+      "original_size": 1707346908,
+      "compressed_size": 6075048,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo1_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0013.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.239%) - compressed may be corrupt",
+      "original_size": 1732667119,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/REC_0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.239%) - compressed may be corrupt",
+      "original_size": 1732667119,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317Camera1/C0006.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.321%) - compressed may be corrupt",
+      "original_size": 1779338025,
+      "compressed_size": 5712634,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0006_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317AlleppyHouseBoatDay2/Original Media/C0006.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.321%) - compressed may be corrupt",
+      "original_size": 1779338025,
+      "compressed_size": 5712634,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0006_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180306TeaFactoryWalk/C0019.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.716%) - compressed may be corrupt",
+      "original_size": 1824197002,
+      "compressed_size": 13061618,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0019_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180306TeaFactoryWalk/Original Media/C0019.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.716%) - compressed may be corrupt",
+      "original_size": 1824197002,
+      "compressed_size": 13061618,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0019_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0012.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.949%) - compressed may be corrupt",
+      "original_size": 1975512055,
+      "compressed_size": 18751721,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/REC_0012.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.949%) - compressed may be corrupt",
+      "original_size": 1975512055,
+      "compressed_size": 18751721,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0011.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.342%) - compressed may be corrupt",
+      "original_size": 1991949627,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317CanalWalk/Original Media/C0011.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.342%) - compressed may be corrupt",
+      "original_size": 1991949627,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180315DescribesDinnerAgain/C0007.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.276%) - compressed may be corrupt",
+      "original_size": 2074736196,
+      "compressed_size": 5734102,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0007_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180315DescribesDinnerAgain/Original Media/C0007.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.276%) - compressed may be corrupt",
+      "original_size": 2074736196,
+      "compressed_size": 5734102,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0007_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180311DinnerInTheTalyarSuite/Mevo2.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.375%) - compressed may be corrupt",
+      "original_size": 2272260806,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180311DinnerInTheTalyarSuite/Original Media/Mevo2.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.375%) - compressed may be corrupt",
+      "original_size": 2272260806,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0021.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.130%) - compressed may be corrupt",
+      "original_size": 2315658944,
+      "compressed_size": 2999722,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0021_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0021.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.130%) - compressed may be corrupt",
+      "original_size": 2315658944,
+      "compressed_size": 2999722,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0021_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/Walkabout2018Final.fcpbundle/180326ZMindrollingCeremonies/Original Media/REC_0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.176%) - compressed may be corrupt",
+      "original_size": 2356049676,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322OrderingSilkForSweetheart/REC_0002.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.924%) - compressed may be corrupt",
+      "original_size": 2373743664,
+      "compressed_size": 21937352,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0002_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180322OrderingSilkForSweetheart/Original Media/REC_0002.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.924%) - compressed may be corrupt",
+      "original_size": 2373743664,
+      "compressed_size": 21937352,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0002_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0007.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.235%) - compressed may be corrupt",
+      "original_size": 2441221752,
+      "compressed_size": 5734102,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0007_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/C0007.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.235%) - compressed may be corrupt",
+      "original_size": 2441221752,
+      "compressed_size": 5734102,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0007_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0020.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.919%) - compressed may be corrupt",
+      "original_size": 2473939461,
+      "compressed_size": 22746592,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0020_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/C0020.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.919%) - compressed may be corrupt",
+      "original_size": 2473939461,
+      "compressed_size": 22746592,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0020_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Mevo/REC_0014.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.880%) - compressed may be corrupt",
+      "original_size": 2551820105,
+      "compressed_size": 22454730,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0014_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/REC_0014.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.880%) - compressed may be corrupt",
+      "original_size": 2551820105,
+      "compressed_size": 22454730,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0014_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/REC_0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.649%) - compressed may be corrupt",
+      "original_size": 2610071710,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/Original Media/REC_0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.649%) - compressed may be corrupt",
+      "original_size": 2610071710,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180313VillageWalkAfterRushHour/REC_0016.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.307%) - compressed may be corrupt",
+      "original_size": 2611819014,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180313VillageWalkAfterRushHour/Original Media/REC_0016.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.307%) - compressed may be corrupt",
+      "original_size": 2611819014,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.215%) - compressed may be corrupt",
+      "original_size": 2638348570,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180402OnTheTownWithShantiGupta/Original Media/C0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.215%) - compressed may be corrupt",
+      "original_size": 2638348570,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.213%) - compressed may be corrupt",
+      "original_size": 2663985188,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317CanalWalk/Original Media/C0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.213%) - compressed may be corrupt",
+      "original_size": 2663985188,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0012.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.208%) - compressed may be corrupt",
+      "original_size": 2731214055,
+      "compressed_size": 5678412,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0012.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.208%) - compressed may be corrupt",
+      "original_size": 2731214055,
+      "compressed_size": 5678412,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0001.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.909%) - compressed may be corrupt",
+      "original_size": 2821975817,
+      "compressed_size": 25637739,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/C0001.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.909%) - compressed may be corrupt",
+      "original_size": 2821975817,
+      "compressed_size": 25637739,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Camera1/C0004.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.825%) - compressed may be corrupt",
+      "original_size": 2885489066,
+      "compressed_size": 23806183,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0004_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/C0004.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.825%) - compressed may be corrupt",
+      "original_size": 2885489066,
+      "compressed_size": 23806183,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0004_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0005.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.738%) - compressed may be corrupt",
+      "original_size": 2965641764,
+      "compressed_size": 21895599,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0005_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317CanalWalk/Original Media/C0005.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.738%) - compressed may be corrupt",
+      "original_size": 2965641764,
+      "compressed_size": 21895599,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0005_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0018.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.595%) - compressed may be corrupt",
+      "original_size": 3061705955,
+      "compressed_size": 18230163,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0018_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317CanalWalk/Original Media/C0018.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.595%) - compressed may be corrupt",
+      "original_size": 3061705955,
+      "compressed_size": 18230163,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0018_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0005.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.671%) - compressed may be corrupt",
+      "original_size": 3261939930,
+      "compressed_size": 21895599,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0005_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0005.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.671%) - compressed may be corrupt",
+      "original_size": 3261939930,
+      "compressed_size": 21895599,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0005_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0003.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.290%) - compressed may be corrupt",
+      "original_size": 3267990869,
+      "compressed_size": 9476786,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/C0003.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.290%) - compressed may be corrupt",
+      "original_size": 3267990869,
+      "compressed_size": 9476786,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0019.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.392%) - compressed may be corrupt",
+      "original_size": 3329408736,
+      "compressed_size": 13061618,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0019_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0019.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.392%) - compressed may be corrupt",
+      "original_size": 3329408736,
+      "compressed_size": 13061618,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0019_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/REC_0003.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.126%) - compressed may be corrupt",
+      "original_size": 3330641509,
+      "compressed_size": 4182656,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/Original Media/REC_0003.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.126%) - compressed may be corrupt",
+      "original_size": 3330641509,
+      "compressed_size": 4182656,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Mevo/REC_0013.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.122%) - compressed may be corrupt",
+      "original_size": 3379220086,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/REC_0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.122%) - compressed may be corrupt",
+      "original_size": 3379220086,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Mevo/REC_0003.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.121%) - compressed may be corrupt",
+      "original_size": 3444276800,
+      "compressed_size": 4182656,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180402OnTheTownWithShantiGupta/Original Media/REC_0003.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.121%) - compressed may be corrupt",
+      "original_size": 3444276800,
+      "compressed_size": 4182656,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/Walkabout2018Final.fcpbundle/180326ZMindrollingCeremonies/Original Media/C0001.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.736%) - compressed may be corrupt",
+      "original_size": 3483562954,
+      "compressed_size": 25637739,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180309OverviewTakes/Mevo3.MP4",
+      "status": "failed_verification",
+      "reason": "Compressed too small (459.39 KB < 1MB)",
+      "original_size": 3495104775,
+      "compressed_size": 470417,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo3_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180309OverviewTakes/Original Media/Mevo3.mp4",
+      "status": "failed_verification",
+      "reason": "Compressed too small (459.39 KB < 1MB)",
+      "original_size": 3495104775,
+      "compressed_size": 470417,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo3_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0004.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.642%) - compressed may be corrupt",
+      "original_size": 3710804868,
+      "compressed_size": 23806183,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0004_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/C0004.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.642%) - compressed may be corrupt",
+      "original_size": 3710804868,
+      "compressed_size": 23806183,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0004_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0003.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.107%) - compressed may be corrupt",
+      "original_size": 3922142235,
+      "compressed_size": 4182656,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180331HaridwarToChandrigarh/Original Media/REC_0003.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.107%) - compressed may be corrupt",
+      "original_size": 3922142235,
+      "compressed_size": 4182656,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.142%) - compressed may be corrupt",
+      "original_size": 4004594416,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.142%) - compressed may be corrupt",
+      "original_size": 4004594416,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Mevo/REC_0001.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.770%) - compressed may be corrupt",
+      "original_size": 4038818350,
+      "compressed_size": 31106384,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/REC_0001.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.770%) - compressed may be corrupt",
+      "original_size": 4038818350,
+      "compressed_size": 31106384,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180313VillageWalkAfterRushHour/REC_0008.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.754%) - compressed may be corrupt",
+      "original_size": 4071552258,
+      "compressed_size": 30690607,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0008_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180313VillageWalkAfterRushHour/Original Media/REC_0008.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.754%) - compressed may be corrupt",
+      "original_size": 4071552258,
+      "compressed_size": 30690607,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0008_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0018.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.447%) - compressed may be corrupt",
+      "original_size": 4080360889,
+      "compressed_size": 18230163,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0018_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180402OnTheTownWithShantiGupta/Original Media/C0018.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.447%) - compressed may be corrupt",
+      "original_size": 4080360889,
+      "compressed_size": 18230163,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0018_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Mevo/REC_0016.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.194%) - compressed may be corrupt",
+      "original_size": 4133342738,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/REC_0016.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.194%) - compressed may be corrupt",
+      "original_size": 4133342738,
+      "compressed_size": 8021924,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0016_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/REC_0008.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.731%) - compressed may be corrupt",
+      "original_size": 4198293261,
+      "compressed_size": 30690607,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0008_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/Original Media/REC_0008.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.731%) - compressed may be corrupt",
+      "original_size": 4198293261,
+      "compressed_size": 30690607,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0008_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180315LastMorningChatWithMuralidheoran/Mevo2.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.199%) - compressed may be corrupt",
+      "original_size": 4291311537,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180315LastMorningChatWithMuralidheoran/Original Media/Mevo2.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.199%) - compressed may be corrupt",
+      "original_size": 4291311537,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/Camera1/C0020.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.506%) - compressed may be corrupt",
+      "original_size": 4499547587,
+      "compressed_size": 22746592,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0020_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/C0020.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.506%) - compressed may be corrupt",
+      "original_size": 4499547587,
+      "compressed_size": 22746592,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0020_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180306MunnarTeaBungalow/180308TeaBungalow.fcpbundle/180309DinnerWithMurralayduranAndCompany/Original Media/Mevo3.mp4",
+      "status": "failed_verification",
+      "reason": "Compressed too small (459.39 KB < 1MB)",
+      "original_size": 4641744154,
+      "compressed_size": 470417,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo3_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180309DinnerWithMurralyDuranAndCompany/Mevo3.MP4",
+      "status": "failed_verification",
+      "reason": "Compressed too small (459.39 KB < 1MB)",
+      "original_size": 4641744154,
+      "compressed_size": 470417,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo3_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/REC_0001.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.669%) - compressed may be corrupt",
+      "original_size": 4650735097,
+      "compressed_size": 31106384,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/REC_0001.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.669%) - compressed may be corrupt",
+      "original_size": 4650735097,
+      "compressed_size": 31106384,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0001_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180313TripToTown/Mevo2.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.181%) - compressed may be corrupt",
+      "original_size": 4709206500,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180313TripToTown/Original Media/Mevo2.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.181%) - compressed may be corrupt",
+      "original_size": 4709206500,
+      "compressed_size": 8521184,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo2_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317Camera1/C0004.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.476%) - compressed may be corrupt",
+      "original_size": 5005950716,
+      "compressed_size": 23806183,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0004_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317AlleppyHouseBoatDay2/Original Media/C0004.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.476%) - compressed may be corrupt",
+      "original_size": 5005950716,
+      "compressed_size": 23806183,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0004_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0013.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.082%) - compressed may be corrupt",
+      "original_size": 5028321473,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180331HaridwarToChandrigarh/Original Media/REC_0013.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.082%) - compressed may be corrupt",
+      "original_size": 5028321473,
+      "compressed_size": 4138009,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0013_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0020.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.448%) - compressed may be corrupt",
+      "original_size": 5077516088,
+      "compressed_size": 22746592,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0020_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0020.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.448%) - compressed may be corrupt",
+      "original_size": 5077516088,
+      "compressed_size": 22746592,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0020_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/Walkabout2018Final.fcpbundle/180326ZMindrollingCeremonies/Original Media/REC_0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.326%) - compressed may be corrupt",
+      "original_size": 5192218215,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0021.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.934%) - compressed may be corrupt",
+      "original_size": 5410296849,
+      "compressed_size": 50547620,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0021_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/REC_0021.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.934%) - compressed may be corrupt",
+      "original_size": 5410296849,
+      "compressed_size": 50547620,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0021_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180309OverviewTakes/Mevo1.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.112%) - compressed may be corrupt",
+      "original_size": 5444448887,
+      "compressed_size": 6075048,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo1_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180309OverviewTakes/Original Media/Mevo1.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.112%) - compressed may be corrupt",
+      "original_size": 5444448887,
+      "compressed_size": 6075048,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/Mevo1_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0021.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.055%) - compressed may be corrupt",
+      "original_size": 5464494004,
+      "compressed_size": 2999722,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0021_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0008.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.484%) - compressed may be corrupt",
+      "original_size": 5498776012,
+      "compressed_size": 26630034,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0008_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/C0008.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.484%) - compressed may be corrupt",
+      "original_size": 5498776012,
+      "compressed_size": 26630034,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0008_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0012.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.340%) - compressed may be corrupt",
+      "original_size": 5515090717,
+      "compressed_size": 18751721,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/REC_0012.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.340%) - compressed may be corrupt",
+      "original_size": 5515090717,
+      "compressed_size": 18751721,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0012_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.301%) - compressed may be corrupt",
+      "original_size": 5628350453,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/REC_0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.301%) - compressed may be corrupt",
+      "original_size": 5628350453,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Camera1/C0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.099%) - compressed may be corrupt",
+      "original_size": 5719889717,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180318MorningMovieForCrewAndDepartureFromHouseboat/Original Media/C0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.099%) - compressed may be corrupt",
+      "original_size": 5719889717,
+      "compressed_size": 5680096,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/Walkabout2018Final.fcpbundle/180326ZMindrollingCeremonies/Original Media/REC_0014.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.391%) - compressed may be corrupt",
+      "original_size": 5748150938,
+      "compressed_size": 22454730,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0014_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/C0011.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.115%) - compressed may be corrupt",
+      "original_size": 5911935877,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180314RushHourAndInsideTheTeaHouse/Original Media/C0011.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.115%) - compressed may be corrupt",
+      "original_size": 5911935877,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180317Camera1/C0003.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.160%) - compressed may be corrupt",
+      "original_size": 5923197684,
+      "compressed_size": 9476786,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180317AlleppyHouseBoatDay2/Original Media/C0003.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.160%) - compressed may be corrupt",
+      "original_size": 5923197684,
+      "compressed_size": 9476786,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0003_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0009.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.142%) - compressed may be corrupt",
+      "original_size": 6056882460,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180402OnTheTownWithShantiGupta/Original Media/C0009.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.142%) - compressed may be corrupt",
+      "original_size": 6056882460,
+      "compressed_size": 8583297,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0009_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180320AMSuryaudayHaveliShivalaGhat/C0018.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.289%) - compressed may be corrupt",
+      "original_size": 6309012211,
+      "compressed_size": 18230163,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0018_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180320AMSuryaudayHaveliShivalaGhat/Original Media/C0018.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.289%) - compressed may be corrupt",
+      "original_size": 6309012211,
+      "compressed_size": 18230163,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0018_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/REC_0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.267%) - compressed may be corrupt",
+      "original_size": 6343593870,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180321KidsWithMevoSilkFactoryAndRiverCeremony/Original Media/REC_0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.267%) - compressed may be corrupt",
+      "original_size": 6343593870,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera1/C0011.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.106%) - compressed may be corrupt",
+      "original_size": 6460713121,
+      "compressed_size": 6816474,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0011_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0007.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.089%) - compressed may be corrupt",
+      "original_size": 6477490071,
+      "compressed_size": 5734102,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0007_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180402OnTheTownWithShantiGupta/Original Media/C0007.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.089%) - compressed may be corrupt",
+      "original_size": 6477490071,
+      "compressed_size": 5734102,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/C0007_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/Walkabout2018Final.fcpbundle/180325Buying7TbUSBDisksInHaridwarMevo/Original Media/REC_0002.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.315%) - compressed may be corrupt",
+      "original_size": 6954517563,
+      "compressed_size": 21937352,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0002_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0010.MP4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.241%) - compressed may be corrupt",
+      "original_size": 7025905781,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/FCPLibraryBackups/Walkabout2018Final 2.fcpbundle/180316TeaBungalowToAlleppyHouseboat/Original Media/REC_0010.mp4",
+      "status": "failed_verification",
+      "reason": "Suspicious ratio (0.241%) - compressed may be corrupt",
+      "original_size": 7025905781,
+      "compressed_size": 16942944,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/REC_0010_1080p.mov"
+    },
+    {
+      "original": "/Volumes/Promise Pegasus/Walkabout2018/180401ShantiGupta/180401ShantiGupta.m4v",
+      "status": "failed_verification",
+      "reason": "Compressed too small (34.12 KB < 1MB)",
+      "original_size": 7112984654,
+      "compressed_size": 34940,
+      "savings": 0,
+      "compressed_path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/180401ShantiGupta_1080p.mov"
+    }
+  ]
+}
