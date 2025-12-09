@@ -1,0 +1,1 @@
+ sleep 4 cat logs/compression_pid.txt ps aux

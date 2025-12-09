@@ -1,0 +1,12 @@
+Compression started: 2025-12-05 17:20:14.219629
+Videos to process: 4695
+Total original size: 41.54 TB
+
+
+[1/4695] Glenn4K.MP4
+  Original: 3840x2160 - 90.78 GB
+  ✗ FAILED
+
+
+============================================================
+COMPLETE: 0 videos, 0.00 B saved
