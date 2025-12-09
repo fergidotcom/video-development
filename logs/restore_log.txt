@@ -1,0 +1,128 @@
+RESTORE LOG - 2025-12-09T10:23:11.405581
+======================================================================
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/170915VinnyAndJoeWalkAround/CameraOne4K/C0002.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171208GlennConroy/Mevo2.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171208GlennConroy/Mevo4.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171216VinnysSyncSlate/171216VinnysSyncSlate.fcpbundle/12-16-17/Transcoded Media/High Quality Media/Chair.mov
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171216VinnysSyncSlate/171216VinnysSyncSlate.fcpbundle/12-16-17/Transcoded Media/High Quality Media/Desk.mov
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171216VinnysSyncSlate/Chair.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171216VinnysSyncSlate/Desk.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171231PaulGerloczy/Fergi.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/171231PaulGerloczy/Left.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180217VinnyInTheHouse/180217VinnyInTheHouse.fcpbundle/2-17-18/Original Media/Mevo2.mp4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180217VinnyInTheHouse/Mevo/Mevo5.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180226SenseiVinnyBeforeWalkabout/180226SenseiVinnyBeforeWalkabout.fcpbundle/180226SenseiVinnyBeforeWalkabout/Original Media/Mevo4.mp4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180226SenseiVinnyBeforeWalkabout/Scene2/Mevo3.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180419FirstBeardTrimmimgWithAlexTrujillo/Camera1.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180419FirstBeardTrimmimgWithAlexTrujillo/Camera2.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180501VideoNoteToPema/Camera1.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180501VideoNoteToPema/Camera2.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/180514MessageAndInterviewToPema/C0002.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/181220DavidsMemorial/REC_0002.MP4
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/190127DavidsMemorial.m4v
+RESTORED: /Volumes/Promise Pegasus/MyMovieWithVinny/190919StephenGuerinMikeMaceyVinnyStenersonVideoPlannibng/REC_0002.MP4
+RESTORED: /Volumes/Promise Pegasus/Pema/180326MindrollingMonasteryForCeremoniesWithPema/Camera1-Sony4K/C0001.MP4
+RESTORED: /Volumes/Promise Pegasus/Pema/180326MindrollingMonasteryForCeremoniesWithPema/Camera1-Sony4K/C0003.MP4
+RESTORED: /Volumes/Promise Pegasus/Pema/180326MindrollingMonasteryForCeremoniesWithPema/Camera1-Sony4K/C0005.MP4
+RESTORED: /Volumes/Promise Pegasus/Pema/180326MindrollingMonasteryForCeremoniesWithPema/Camera2-Sony4K/C0001.MP4
+RESTORED: /Volumes/Promise Pegasus/Pema/180326MindrollingMonasteryForCeremoniesWithPema/Camera2-Sony4K/C0003.MP4
+RESTORED: /Volumes/Promise Pegasus/Pema/180326MindrollingMonasteryForCeremoniesWithPema/Camera2-Sony4K/C0005.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180303PondicherryBRoll/REC_0007.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180304PondicherryToKerala/REC_0012.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180304PondicherryToKerala/REC_0017.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoods/180306MonasticCellAtChandysWindyWoods.fcpbundle/3-6-18/Transcoded Media/High Quality Media/Right.mov
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoods/Right.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoodsToTeaBungalows/REC_0019.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306MunnarTeaBungalow/180308TeaBungalow.fcpbundle/MorningRun/Original Media/REC_0014.mp4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306MunnarTeaBungalow/180308TeaBungalow.fcpbundle/MorningRun/Original Media/REC_0015.mp4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306TeaFactoryWalk/C0020.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306TeaFactoryWalk/C0026.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306TeaFactoryWalk/C0029.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306TeaFactoryWalk/C0032.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180306TeaFactoryWalk/C0034.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180308Bungalow/Bungalow3.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180308Bungalow/Magnolia.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/Mevo5.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180309OverviewTakes/Mevo5.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180309OverviewTakes/Mevo6.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180312DinnerInTheTalyarSuite/Camera1.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180313DinnerInThetalayarSuiteWithoutStaffButWithSomeDiscourse/Mevo6.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180313TripToTown/Camera1.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180313VillageWalkAfterRushHour/REC_0008.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180313VillageWalkAfterRushHour/REC_0012.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180313VillageWalkAfterRushHour/REC_0015.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314LastDinnerInThetalayarSuiteWholeStaff/Mevo.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0007.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0008.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0009.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0014.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0018.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0020.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0022.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0023.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180314RushHourAndInsideTheTeaHouse/REC_0024.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180315DescribesDinnerAgain/Front.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180315DescribesDinnerAgain/Mevo.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180315LastMorningChatWithMuralidheoran/Front.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera1/C0001.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera1/C0002.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0008.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0015.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0018.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0022.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0025.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0027.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0028.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Camera2/C0029.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0017.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0019.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0020.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0022.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0025.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0026.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180316TeaBungalowToAlleppyHouseboat/Mevo/REC_0027.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317Camera1/C0005.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317Camera2/C0002.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0005.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0014.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0016.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0018.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0023.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180317CanalWalk/C0024.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180318MorningMovieForCrewAndDepartureFromHouseboat/Mevo/REC_0004.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/REC_0004.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/REC_0005.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180320WalkToStJohnsBenarasAndSunsetRiverboatCeremonyAtMainGhat/REC_0006.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/Camera1/C0023.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/Camera1/C0024.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/Camera1/C0027.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/Camera1/C0028.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/REC_0002.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180321KidsWithMevoSilkFactoryAndRiverCeremony/REC_0006.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0001.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0014.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/MaybeRedundantRiverCelebration/C0017.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/REC_0001.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180322AfternoonAboutBenares/REC_0005.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0002.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0009.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0018.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0023.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0024.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0025.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0026.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180331HaridwarToChandrigarh/REC_0027.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Mevo/REC_0001.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180402OnTheTownWithShantiGupta/Sony4K/C0008.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0015.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0016.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0017.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0020.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0022.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0025.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0026.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0032.MP4
+RESTORED: /Volumes/Promise Pegasus/Walkabout2018/180404Hungary/C0034.MP4
+
+======================================================================
+SUMMARY: Restored=123, Skipped=0, Errors=0

@@ -201,13 +201,14 @@ def get_unique_videos(videos):
     return unique
 
 def generate_output_path(video, output_dir):
-    """Generate output path preserving some directory structure."""
-    # Extract meaningful subdirectory from path
+    """Generate output path preserving FULL directory structure to prevent collisions."""
+    # Extract full relative path from Pegasus root
     path_parts = video['path'].replace(PEGASUS_ROOT + '/', '').split('/')
 
-    # Use first directory level for organization
+    # FIXED: Use full relative path (all directories except filename) to prevent collisions
+    # e.g., Walkabout2018/180316.../Camera1/C0001.MP4 -> Walkabout2018/180316.../Camera1/
     if len(path_parts) > 1:
-        subdir = path_parts[0]
+        subdir = '/'.join(path_parts[:-1])  # All path components except filename
     else:
         subdir = "misc"
 
@@ -215,7 +216,7 @@ def generate_output_path(video, output_dir):
     base, ext = os.path.splitext(video['filename'])
     output_filename = f"{base}_1080p.mov"
 
-    # Create subdirectory
+    # Create full subdirectory structure
     full_output_dir = os.path.join(output_dir, subdir)
     os.makedirs(full_output_dir, exist_ok=True)
 
