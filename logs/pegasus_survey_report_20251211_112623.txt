@@ -1,0 +1,90 @@
+======================================================================
+PEGASUS DRIVE SURVEY REPORT
+Generated: 2025-12-11 11:26:23
+Scan Duration: 0:51:17
+======================================================================
+
+OVERALL STATISTICS
+----------------------------------------
+Directories scanned: 151,362
+Files scanned: 730,548
+  - Video files: 13,518
+  - Audio files: 16,352
+  - Image files: 22,426
+  - Transcript files: 0
+  - Other files: 678,252
+Total size: 48.2 TB
+Total duration: 7051:00:12
+Errors: 0
+
+DETECTED PROJECTS
+----------------------------------------
+
+walkabout_india
+  Description: India trip footage 2018
+  Files: 644,489
+  Size: 37.5 TB
+  Duration: 4579:25:05
+
+vinny_movie
+  Description: My Movie With Vinny project
+  Files: 26,149
+  Size: 5.3 TB
+  Duration: 881:51:34
+
+ferguson_family
+  Description: Ferguson Family videos
+  Files: 21,732
+  Size: 547.8 GB
+  Duration: 439:03:46
+
+pema_mindrolling
+  Description: Pema Mindrolling Monastery footage
+  Files: 908
+  Size: 320.0 GB
+  Duration: 41:17:54
+
+pierce_gang
+  Description: Pierce Gang / Charles Pers discussions
+  Files: 101
+  Size: 68.8 GB
+  Duration: 41:35:34
+
+christmas
+  Description: Christmas celebrations
+  Files: 27
+  Size: 3.6 GB
+  Duration: 1:15:30
+
+TOP 20 DIRECTORIES BY SIZE
+----------------------------------------
+/Walkabout2018/WalkaboutDailies                    |   117 files |   830.5 GB
+/190205JeffreyAndPop                               |    29 files |   367.5 GB
+/MyMovieWithVinny/171208GlennConroy/171208GlennCon |    12 files |   208.9 GB
+/PeirceGang/PeirceGangDailies                      |    24 files |   206.3 GB
+/MyMovieWithVinny/180217VinnyInTheHouse/180217Vinn |    52 files |   199.4 GB
+/Walkabout2018/180312EditingAndEditingVillageWalk  |    12 files |   195.4 GB
+/MyMovieWithVinny/171208GlennConroy                |    14 files |   193.9 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/FCPLibraryBackups/Walkabout2018Fina |    24 files |   192.2 GB
+/Walkabout2018/SeekingMuhammedAkbar.fcpbundle/1802 |    24 files |   192.2 GB
+/Walkabout2018/Walkabout2018Final.fcpbundle/180226 |    24 files |   192.2 GB
+/MyMovieWithVinny/180117LewWatts/180117LewWatts.fc |    10 files |   186.7 GB
+/PeirceGang/180709ComprehensiveAndUniversalPhiloso |     7 files |   186.0 GB
+
+TRANSCRIPTION STATUS
+----------------------------------------
+Videos without transcripts: 13,208
+Duration needing transcription: 3918:30:25
+Estimated Whisper API cost: $1,410.66
+
+======================================================================
+END OF REPORT
+======================================================================
