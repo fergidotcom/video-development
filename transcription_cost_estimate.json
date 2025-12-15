@@ -1,0 +1,791 @@
+{
+  "generated": "2025-12-15T09:58:14.377503",
+  "total_composites": 130,
+  "total_duration_seconds": 676271.211201,
+  "total_duration_minutes": 11271.18685335,
+  "total_duration_hours": 187.8531142225,
+  "cost_per_minute": 0.006,
+  "estimated_cost_usd": 67.6271211201,
+  "composites": [
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180918WalkaboutScreeningComposite.mov",
+      "duration_sec": 7200.735208,
+      "duration_min": 120.01225346666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/WalkaboutDailies/180918WalkaboutScreeningComposite_1080p.mov",
+      "duration_sec": 7200.735208,
+      "duration_min": 120.01225346666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/170510ChatInJoesOffice/170510VinnyCamExportedFromQuickTime.mov",
+      "duration_sec": 4790.786,
+      "duration_min": 79.84643333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/FinalTake.mov",
+      "duration_sec": 452.9525,
+      "duration_min": 7.5492083333333335,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/PeirceGang/170928PeirceGangChanceLawAndHabit-GroundworkForAGuessAtTheRiddle/John Balkcom Skype Composite on 2017-09-28 at 08.25.mov",
+      "duration_sec": 5761.892,
+      "duration_min": 96.03153333333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312EditingAndEditingVillageWalk.m4v",
+      "duration_sec": 45394.433333,
+      "duration_min": 756.5738888833333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313DinnerInThetalayarSuiteWithoutStaffButWithSomeDiscourse.m4v",
+      "duration_sec": 28042.180833,
+      "duration_min": 467.36968055,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180316TeaBungalowToAlleppyHouseboat.m4v",
+      "duration_sec": 27206.379208,
+      "duration_min": 453.43965346666664,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315TeaPeople.m4v",
+      "duration_sec": 29279.166667,
+      "duration_min": 487.9861111166667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315DinnerAndAMovie.m4v",
+      "duration_sec": 25849.023208,
+      "duration_min": 430.81705346666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180316AlleppeyHouseboat.m4v",
+      "duration_sec": 25740.766667,
+      "duration_min": 429.0127777833333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180318MorningMovieForCrewAndDepartureFromHouseboat.m4v",
+      "duration_sec": 20905.084208,
+      "duration_min": 348.41807013333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180311DinnerInTheTalyarSuite.m4v",
+      "duration_sec": 19714.961938,
+      "duration_min": 328.58269896666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180425CapturingDeepThought.m4v",
+      "duration_sec": 17040.289938,
+      "duration_min": 284.00483230000003,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180314RushHourAndInsideTheTeaHouse.m4v",
+      "duration_sec": 15553.271067,
+      "duration_min": 259.22118445,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/190205JeffAndPopTalkAboutJeffsCareerSession1.m4v",
+      "duration_sec": 15102.020272,
+      "duration_min": 251.70033786666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313TripToTown.m4v",
+      "duration_sec": 13638.458167,
+      "duration_min": 227.30763611666669,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303EditingMaryFromPondicherryBroll.m4v",
+      "duration_sec": 11483.305167,
+      "duration_min": 191.38841945000001,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/Pop1-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 11013.002,
+      "duration_min": 183.55003333333335,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/Jeff1-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 11013.002,
+      "duration_min": 183.55003333333335,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180309MorningRun.m4v",
+      "duration_sec": 10441.364271,
+      "duration_min": 174.02273785,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180314LastDinnerInThetalayarSuiteWholeStaff.m4v",
+      "duration_sec": 8399.824771,
+      "duration_min": 139.99707951666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180226SenseiVinnyBeforeWalkabout.m4v",
+      "duration_sec": 11693.048042,
+      "duration_min": 194.88413403333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180226SenseiVinnyBeforeWalkabout.m4v",
+      "duration_sec": 11693.048042,
+      "duration_min": 194.88413403333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180423VinnyInTheGardenAfterIndia.m4v",
+      "duration_sec": 8145.971167,
+      "duration_min": 135.76618611666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317AllepyCamera2.m4v",
+      "duration_sec": 7775.2675,
+      "duration_min": 129.58779166666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312DinnerInTheTalyarSuite.m4v",
+      "duration_sec": 7515.207708,
+      "duration_min": 125.2534618,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/C0001 2-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 6647.641,
+      "duration_min": 110.79401666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317AlleppyCamera1.m4v",
+      "duration_sec": 6357.351,
+      "duration_min": 105.95585,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180323SunriseRowboatWIthSanjay.m4v",
+      "duration_sec": 8647.205233,
+      "duration_min": 144.1200872166667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Renesan2017/180104RenesanLecture1Redacted.m4v",
+      "duration_sec": 6000.060733,
+      "duration_min": 100.00101221666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/PeirceGang/PeirceGangDailies/180709ComprehensiveAndUniversalPhilosophyPart1SVLPaper.m4v",
+      "duration_sec": 6405.999604,
+      "duration_min": 106.76666006666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/PeirceGang/PeirceGangDailies/181005PhaneronAndSignsYetAgain1.m4v",
+      "duration_sec": 6205.799604,
+      "duration_min": 103.4299934,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306MunnarTeaBungalow.m4v",
+      "duration_sec": 6207.134271,
+      "duration_min": 103.45223785,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180322OrderingSilkForSweetheart.m4v",
+      "duration_sec": 8201.733333,
+      "duration_min": 136.69555555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315DepartureFromTeaBungalow.m4v",
+      "duration_sec": 6877.966667,
+      "duration_min": 114.63277778333332,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Renesan2017/180104RenesanLecture2Redacted.m4v",
+      "duration_sec": 5666.8,
+      "duration_min": 94.44666666666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/190127DavidsMemorial.m4v",
+      "duration_sec": 2848.145306,
+      "duration_min": 47.46908843333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/190127DavidsMemorial.m4v",
+      "duration_sec": 2848.145306,
+      "duration_min": 47.46908843333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180319CochinToVaranasi.m4v",
+      "duration_sec": 5588.416167,
+      "duration_min": 93.14026945,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317CanalWalk.m4v",
+      "duration_sec": 5380.375,
+      "duration_min": 89.67291666666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/PeirceGang/PeirceGangDailies/180216PeirceGangEvolutionaryLove.m4v",
+      "duration_sec": 5302.263633,
+      "duration_min": 88.37106055,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180226EditingCapersTillTheEnd.m4v",
+      "duration_sec": 5155.984167,
+      "duration_min": 85.93306944999999,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306ChandysWindyWoodsToTeaBungalows.m4v",
+      "duration_sec": 4728.724,
+      "duration_min": 78.81206666666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/Pop3-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 4356.352,
+      "duration_min": 72.60586666666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/Jeff3-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 4337.333,
+      "duration_min": 72.28888333333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/190205JeffAndPopTalkAboutJeffsCareerSummary.m4v",
+      "duration_sec": 4288.884603,
+      "duration_min": 71.48141005000001,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315LastMorningChatWithMuralidheoran.m4v",
+      "duration_sec": 4083.8798,
+      "duration_min": 68.06466333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/Pop2-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3961.958,
+      "duration_min": 66.03263333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/Jeff2-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3922.919,
+      "duration_min": 65.38198333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312RuminationOnFourSubjects.m4v",
+      "duration_sec": 3921.033333,
+      "duration_min": 65.35055555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Pops1-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 5369.364,
+      "duration_min": 89.48939999999999,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Jeff1-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 5367.395375,
+      "duration_min": 89.45658958333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180311TeaVillageWalk/180311TeaVillageWalk.m4v",
+      "duration_sec": 3750.012938,
+      "duration_min": 62.50021563333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180311TeaVillageWalk.m4v",
+      "duration_sec": 3750.012938,
+      "duration_min": 62.50021563333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180402OnTheTownWithShantiGupta.m4v",
+      "duration_sec": 5270.865604,
+      "duration_min": 87.84776006666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0006-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3600.0965,
+      "duration_min": 60.00160833333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0001-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3600.0965,
+      "duration_min": 60.00160833333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0007-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3600.0965,
+      "duration_min": 60.00160833333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0008-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3600.0965,
+      "duration_min": 60.00160833333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0005-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 3600.0965,
+      "duration_min": 60.00160833333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303PondicherryBrollSony.m4v",
+      "duration_sec": 3481.478,
+      "duration_min": 58.024633333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315DescribesDinnerAgain.m4v",
+      "duration_sec": 3422.085333,
+      "duration_min": 57.03475555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317iPhoneVideoHouseboat.m4v",
+      "duration_sec": 3428.3,
+      "duration_min": 57.138333333333335,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180325Buying7TbUSBDisksInHaridwarMevo.m4v",
+      "duration_sec": 4812.808,
+      "duration_min": 80.21346666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306TeaFactoryWalk.m4v",
+      "duration_sec": 3319.8165,
+      "duration_min": 55.330275,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313VillageWalkAfterRushHour.m4v",
+      "duration_sec": 3118.315208,
+      "duration_min": 51.971920133333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303PondicherryBrollMevo.m4v",
+      "duration_sec": 2985.816167,
+      "duration_min": 49.76360278333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/180310MyMovieWithVinnyOverview.m4v",
+      "duration_sec": 2683.347333,
+      "duration_min": 44.72245555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180310MyMovieWithVinnyOverview.m4v",
+      "duration_sec": 2683.347333,
+      "duration_min": 44.72245555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180316AlleppeyHouseboat/180318ThePeopleOfTheKeralaBackwaters.m4v",
+      "duration_sec": 2657.421438,
+      "duration_min": 44.2903573,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180318ThePeopleOfTheKeralaBackwaters.m4v",
+      "duration_sec": 2657.421438,
+      "duration_min": 44.2903573,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180705HaridwarSunsetRiverCeremonyMridhni.m4v",
+      "duration_sec": 2643.907938,
+      "duration_min": 44.065132299999995,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180314MediaManagementNeedsNarration.m4v",
+      "duration_sec": 6603.888958,
+      "duration_min": 110.06481596666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308Bungalow.m4v",
+      "duration_sec": 1965.396771,
+      "duration_min": 32.756612849999996,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180327HaridwarSunsetRiverCeremonyiPhone.m4v",
+      "duration_sec": 2559.089875,
+      "duration_min": 42.65149791666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306ChandysWindyWoods.m4v",
+      "duration_sec": 1696.261233,
+      "duration_min": 28.27102055,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308TeaBungalow.m4v",
+      "duration_sec": 830.866667,
+      "duration_min": 13.847777783333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180304PondicherryToKerala.m4v",
+      "duration_sec": 1614.212604,
+      "duration_min": 26.9035434,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180308InTheKitchenWithMurralyDuran/180308InTheKitchenWithMullaryduran.m4v",
+      "duration_sec": 1510.876042,
+      "duration_min": 25.181267366666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308InTheKitchenWithMullaryduran.m4v",
+      "duration_sec": 1510.876042,
+      "duration_min": 25.181267366666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180310DinnerWithMurralyDuranAndCompany/180310DinnerWithMurralyDuranAndCompany.m4v",
+      "duration_sec": 3520.0165,
+      "duration_min": 58.666941666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180310DinnerWithMurralyDuranAndCompany.m4v",
+      "duration_sec": 3520.0165,
+      "duration_min": 58.666941666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308AMGrounds.m4v",
+      "duration_sec": 1438.437,
+      "duration_min": 23.97395,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/180222BRoll/180222BRoll.m4v",
+      "duration_sec": 2797.661542,
+      "duration_min": 46.627692366666665,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/190127DavidSohmMemorial.m4v",
+      "duration_sec": 3040.833333,
+      "duration_min": 50.68055555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Renesan2017/Renesan 2017.fcpbundle/9-18-17 Lecture 2/Shared Items/8oDt0+CuQQW5iDw+ciOB5g/VinnyStart (1920 x 1080).m4v",
+      "duration_sec": 3259.0,
+      "duration_min": 54.31666666666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303ToMaryFromPondicherry.m4v",
+      "duration_sec": 1051.4504,
+      "duration_min": 17.524173333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180329ContentInHaridwar/180330ContentsCooked.m4v",
+      "duration_sec": 1622.187233,
+      "duration_min": 27.036453883333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315HARDWorkingWomen.m4v",
+      "duration_sec": 1040.733333,
+      "duration_min": 17.345555549999997,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317BlackDogToastWithHouseboatCrew.m4v",
+      "duration_sec": 995.995,
+      "duration_min": 16.599916666666665,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180325PlanForTheWeekInTheAMFirstMorning.m4v",
+      "duration_sec": 1401.366633,
+      "duration_min": 23.35611055,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303ToVinnyFromPondicherry.m4v",
+      "duration_sec": 948.514233,
+      "duration_min": 15.80857055,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306ScreeningTeaBungalow.m4v",
+      "duration_sec": 923.622708,
+      "duration_min": 15.3937118,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Jeff2-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 1280.279,
+      "duration_min": 21.337983333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Pops2-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 1256.255,
+      "duration_min": 20.937583333333336,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0009-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 876.609067,
+      "duration_min": 14.610151116666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315iPhoneVideoTeaBungalow.m4v",
+      "duration_sec": 867.333133,
+      "duration_min": 14.455552216666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180105ScreenDirection.m4v",
+      "duration_sec": 845.411233,
+      "duration_min": 14.090187216666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312GaneshBringsCoffee.m4v",
+      "duration_sec": 1123.822708,
+      "duration_min": 18.730378466666664,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0002-Apple Devices HD (Best Quality).m4v",
+      "duration_sec": 759.225133,
+      "duration_min": 12.653752216666668,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180920SeekingTwoGuysFromAlleppy.m4v",
+      "duration_sec": 762.194771,
+      "duration_min": 12.703246183333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180313OrderingDeepThought/180313DeepThought.m4v",
+      "duration_sec": 695.4948,
+      "duration_min": 11.59158,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313OrderingDeepThoughtToCome.m4v",
+      "duration_sec": 695.4948,
+      "duration_min": 11.59158,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/LAXAndJPL.m4v",
+      "duration_sec": 683.8832,
+      "duration_min": 11.398053333333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/Davids Education.m4v",
+      "duration_sec": 645.0444,
+      "duration_min": 10.75074,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315ExtendedSelfieWithMandNandV.m4v",
+      "duration_sec": 611.1105,
+      "duration_min": 10.185175,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/Davids Career.m4v",
+      "duration_sec": 554.921043,
+      "duration_min": 9.248684050000001,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/180309ProjectOverviewDinnerTake.m4v",
+      "duration_sec": 493.8934,
+      "duration_min": 8.231556666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180309ProjectOverviewDinnerTake.m4v",
+      "duration_sec": 493.8934,
+      "duration_min": 8.231556666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180313TripToTown/180313BlackDogScotchWhiskeyForJohnCook.m4v",
+      "duration_sec": 446.078967,
+      "duration_min": 7.434649449999999,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313BlackDogScotchWhiskeyForJohnCook.m4v",
+      "duration_sec": 446.078967,
+      "duration_min": 7.434649449999999,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/JPL.m4v",
+      "duration_sec": 406.6062,
+      "duration_min": 6.77677,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180325ProductionAssistanceFromPeterAndVinny/180325ProductionAssistanceFromSenseiVinnyAndPeterOgilve.m4v",
+      "duration_sec": 576.133333,
+      "duration_min": 9.602222216666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/180429WalkaboutSelfie/180429WalkaboutSelfie.m4v",
+      "duration_sec": 380.446733,
+      "duration_min": 6.340778883333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180320AMSuryaudayHaveliShivalaGhat/180320AMSuryaudayHaveliShivalaGhat.m4v",
+      "duration_sec": 311.077438,
+      "duration_min": 5.184623966666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/House Fire.m4v",
+      "duration_sec": 277.277007,
+      "duration_min": 4.621283450000001,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/LAX.m4v",
+      "duration_sec": 277.277007,
+      "duration_min": 4.621283450000001,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/David Sohm_slideshow.m4v",
+      "duration_sec": 508.533333,
+      "duration_min": 8.475555550000001,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoods/180306MonasticCellAtChandysWindyWoods.m4v",
+      "duration_sec": 153.620133,
+      "duration_min": 2.56033555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180305KeralaToMunnar-ChandysWindyWoods.m4v",
+      "duration_sec": 145.9458,
+      "duration_min": 2.4324299999999996,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/180429WalkaboutSelfie/180429SoundCheck.m4v",
+      "duration_sec": 96.830067,
+      "duration_min": 1.61383445,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/180322OrderingSilkForSweetheart/180321ColorBook.m4v",
+      "duration_sec": 61.266667,
+      "duration_min": 1.0211111166666667,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180224NewProductionSchedule.m4v",
+      "duration_sec": 80.733333,
+      "duration_min": 1.34555555,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/PeirceGang/190909LetsDoPeirceAgain.m4v",
+      "duration_sec": 52.7527,
+      "duration_min": 0.8792116666666666,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/Marshmallow.m4v",
+      "duration_sec": 41.64161,
+      "duration_min": 0.6940268333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/The Marshmallow Test.m4v",
+      "duration_sec": 41.64161,
+      "duration_min": 0.6940268333333334,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303PondicherryBrollMacbook.m4v",
+      "duration_sec": 70.612208,
+      "duration_min": 1.1768701333333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/StephenJayGouldInSantaRosa.m4v",
+      "duration_sec": 10.01,
+      "duration_min": 0.16683333333333333,
+      "exists": true
+    },
+    {
+      "path": "/Volumes/Promise Pegasus/MyMovieWithVinny/180419FirstBeardTrimmimgWithAlexTrujillo/TempFilesOnDesktopAtTimeOfCrash/180419FirstBeardTrimmimgWithAlexTrujillo.m4v",
+      "duration_sec": 0.0,
+      "duration_min": 0.0,
+      "exists": true
+    }
+  ]
+}
