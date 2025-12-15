@@ -1,0 +1,67 @@
+# Unusable/Unusual Video Files Report
+# Generated: 2025-12-15
+#
+# This report identifies video files with unusual formats that may need special handling
+#================================================================================
+
+## UNUSUAL FORMAT FILES (Possible 360°/3D Camera)
+
+These 2 files have a 2880x2880 SQUARE format, suggesting they were shot with a
+360-degree or 3D camera. They cannot be compressed with standard settings.
+
+1. /Volumes/Promise Pegasus/MyMovieWithVinny/170801VinnyBringsLunchForSoundCheck/FlyVinnySoundCheck.MP4
+   - Resolution: 2880x2880 (square)
+   - Duration: 31 minutes
+   - Size: 11.0 GB
+   - Project: MyMovieWithVinny
+   - Action: Review if needed, may require special 360° viewer
+
+2. /Volumes/Promise Pegasus/PeirceGang/170804PeirceGangTheOrderOfNature/PeirceGangOrb.MP4
+   - Resolution: 2880x2880 (square)
+   - Duration: 82 minutes
+   - Size: 29.0 GB
+   - Project: PeirceGang
+   - Action: Review if needed, may require special 360° viewer
+
+
+## LARGE 4K FILES (Compression Timeout - NOT Unusable)
+
+These files failed compression due to their extreme length (2.5-3 hours of 4K each),
+NOT because of format issues. They are perfectly usable but need extended timeout.
+
+1. /Volumes/Promise Pegasus/190205JeffreyAndPop/Pop1.MP4
+   - Resolution: 3840x2160 (4K)
+   - Duration: 3 hours 3 minutes (11,013 sec)
+   - Size: 68.0 GB
+   - Status: Normal 4K video, compression needs longer timeout
+
+2. /Volumes/Promise Pegasus/201227JoeFergusonLifeStoryByJeff/Jeff.MP4
+   - Resolution: 3840x2160 (4K)
+   - Duration: 2 hours 47 minutes (10,005 sec)
+   - Size: 62.8 GB
+   - Status: Normal 4K video, compression needs longer timeout
+
+3. /Volumes/Promise Pegasus/MyMovieWithVinny/171018SantaBarbaraKjell/CounterCam.MP4
+   - Resolution: 3840x2160 (4K)
+   - Duration: 2 hours 53 minutes (10,395 sec)
+   - Size: 66.9 GB
+   - Status: Normal 4K video, compression needs longer timeout
+
+4. /Volumes/Promise Pegasus/MyMovieWithVinny/180117LewWatts/Lew.MP4
+   - Resolution: 3840x2160 (4K)
+   - Duration: 2 hours 34 minutes (9,263 sec)
+   - Size: 60.8 GB
+   - Status: Normal 4K video, compression needs longer timeout
+
+
+## RECOMMENDATION
+
+For the 360°/3D files:
+- Use a 360° video player (like GoPro VR Player or VLC with 360 plugin) to view
+- Consider if these have narrative value - they may be interesting experiments
+- Standard compression won't work - would need equirectangular → flat conversion first
+
+For the long 4K files:
+- These are important content (Jeffrey/Pop life story, Vinny project interviews)
+- Can be compressed manually with Compressor using extended timeout
+- Estimated compression time: 4-6 hours each due to length

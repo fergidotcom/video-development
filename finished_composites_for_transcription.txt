@@ -1,0 +1,536 @@
+# Finished Composites for Transcription
+# Generated: 2025-12-15T09:42:58.891763
+# Total: 130 files
+#
+# Priority Levels:
+#   1 = High (Final/Master composites, Life stories)
+#   2 = Medium (M4V exports)
+#   3 = Lower (Other exports)
+#================================================================================
+
+
+## PRIORITY 1
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180918WalkaboutScreeningComposite.mov
+  Size: 42912.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/_compressor_output/Walkabout2018/WalkaboutDailies/180918WalkaboutScreeningComposite_1080p.mov
+  Size: 12988.5 MB
+  Directory: _compressor_output/Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/170510ChatInJoesOffice/170510VinnyCamExportedFromQuickTime.mov
+  Size: 6136.0 MB
+  Directory: MyMovieWithVinny/170510ChatInJoesOffice
+
+/Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/FinalTake.mov
+  Size: 816.7 MB
+  Directory: Walkabout2018/180308ProjectDefinition
+
+/Volumes/Promise Pegasus/PeirceGang/170928PeirceGangChanceLawAndHabit-GroundworkForAGuessAtTheRiddle/John Balkcom Skype Composite on 2017-09-28 at 08.25.mov
+  Size: 548.6 MB
+  Directory: PeirceGang/170928PeirceGangChanceLawAndHabit-GroundworkForAGuessAtTheRiddle
+
+
+## PRIORITY 2
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312EditingAndEditingVillageWalk.m4v
+  Size: 54790.8 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313DinnerInThetalayarSuiteWithoutStaffButWithSomeDiscourse.m4v
+  Size: 34056.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180316TeaBungalowToAlleppyHouseboat.m4v
+  Size: 32915.2 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315TeaPeople.m4v
+  Size: 31680.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315DinnerAndAMovie.m4v
+  Size: 31439.5 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180316AlleppeyHouseboat.m4v
+  Size: 31119.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180318MorningMovieForCrewAndDepartureFromHouseboat.m4v
+  Size: 25381.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180311DinnerInTheTalyarSuite.m4v
+  Size: 23928.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180425CapturingDeepThought.m4v
+  Size: 19989.7 MB
+  Directory: MyMovieWithVinny/MyMovieWithVinnyDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180314RushHourAndInsideTheTeaHouse.m4v
+  Size: 18895.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/190205JeffAndPopTalkAboutJeffsCareerSession1.m4v
+  Size: 18235.8 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313TripToTown.m4v
+  Size: 16495.5 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303EditingMaryFromPondicherryBroll.m4v
+  Size: 13900.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/Pop1-Apple Devices HD (Best Quality).m4v
+  Size: 13350.8 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/Jeff1-Apple Devices HD (Best Quality).m4v
+  Size: 13344.1 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180309MorningRun.m4v
+  Size: 12636.2 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180314LastDinnerInThetalayarSuiteWholeStaff.m4v
+  Size: 10188.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180226SenseiVinnyBeforeWalkabout.m4v
+  Size: 9979.1 MB
+  Directory: MyMovieWithVinny/MyMovieWithVinnyDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180226SenseiVinnyBeforeWalkabout.m4v
+  Size: 9979.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180423VinnyInTheGardenAfterIndia.m4v
+  Size: 9882.7 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317AllepyCamera2.m4v
+  Size: 9385.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312DinnerInTheTalyarSuite.m4v
+  Size: 9115.2 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/C0001 2-Apple Devices HD (Best Quality).m4v
+  Size: 8056.4 MB
+  Directory: 201223JeffFergusonLifeStory
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317AlleppyCamera1.m4v
+  Size: 7738.3 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180323SunriseRowboatWIthSanjay.m4v
+  Size: 7378.0 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Renesan2017/180104RenesanLecture1Redacted.m4v
+  Size: 7268.8 MB
+  Directory: Renesan2017
+
+/Volumes/Promise Pegasus/PeirceGang/PeirceGangDailies/180709ComprehensiveAndUniversalPhilosophyPart1SVLPaper.m4v
+  Size: 7257.8 MB
+  Directory: PeirceGang/PeirceGangDailies
+
+/Volumes/Promise Pegasus/PeirceGang/PeirceGangDailies/181005PhaneronAndSignsYetAgain1.m4v
+  Size: 7026.4 MB
+  Directory: PeirceGang/PeirceGangDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306MunnarTeaBungalow.m4v
+  Size: 7008.5 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180322OrderingSilkForSweetheart.m4v
+  Size: 6992.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315DepartureFromTeaBungalow.m4v
+  Size: 6971.5 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Renesan2017/180104RenesanLecture2Redacted.m4v
+  Size: 6878.2 MB
+  Directory: Renesan2017
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/190127DavidsMemorial.m4v
+  Size: 6863.6 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/190127DavidsMemorial.m4v
+  Size: 6863.6 MB
+  Directory: MyMovieWithVinny/MyMovieWithVinnyDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180319CochinToVaranasi.m4v
+  Size: 6799.5 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317CanalWalk.m4v
+  Size: 6504.2 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/PeirceGang/PeirceGangDailies/180216PeirceGangEvolutionaryLove.m4v
+  Size: 6448.3 MB
+  Directory: PeirceGang/PeirceGangDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180226EditingCapersTillTheEnd.m4v
+  Size: 6230.3 MB
+  Directory: MyMovieWithVinny/MyMovieWithVinnyDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306ChandysWindyWoodsToTeaBungalows.m4v
+  Size: 5722.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/Pop3-Apple Devices HD (Best Quality).m4v
+  Size: 5284.4 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/Jeff3-Apple Devices HD (Best Quality).m4v
+  Size: 5258.7 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/190205JeffAndPopTalkAboutJeffsCareerSummary.m4v
+  Size: 5195.4 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315LastMorningChatWithMuralidheoran.m4v
+  Size: 4933.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/Pop2-Apple Devices HD (Best Quality).m4v
+  Size: 4806.5 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/Jeff2-Apple Devices HD (Best Quality).m4v
+  Size: 4757.7 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312RuminationOnFourSubjects.m4v
+  Size: 4738.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Pops1-Apple Devices HD (Best Quality).m4v
+  Size: 4582.8 MB
+  Directory: 201223JeffFergusonLifeStory
+
+/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Jeff1-Apple Devices HD (Best Quality).m4v
+  Size: 4580.5 MB
+  Directory: 201223JeffFergusonLifeStory
+
+/Volumes/Promise Pegasus/Walkabout2018/180311TeaVillageWalk/180311TeaVillageWalk.m4v
+  Size: 4564.9 MB
+  Directory: Walkabout2018/180311TeaVillageWalk
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180311TeaVillageWalk.m4v
+  Size: 4564.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180402OnTheTownWithShantiGupta.m4v
+  Size: 4503.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0006-Apple Devices HD (Best Quality).m4v
+  Size: 4362.5 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0001-Apple Devices HD (Best Quality).m4v
+  Size: 4362.4 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0007-Apple Devices HD (Best Quality).m4v
+  Size: 4362.1 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0008-Apple Devices HD (Best Quality).m4v
+  Size: 4362.0 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0005-Apple Devices HD (Best Quality).m4v
+  Size: 4361.9 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303PondicherryBrollSony.m4v
+  Size: 4220.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315DescribesDinnerAgain.m4v
+  Size: 4148.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317iPhoneVideoHouseboat.m4v
+  Size: 4130.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180325Buying7TbUSBDisksInHaridwarMevo.m4v
+  Size: 4124.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306TeaFactoryWalk.m4v
+  Size: 4018.5 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313VillageWalkAfterRushHour.m4v
+  Size: 3738.8 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303PondicherryBrollMevo.m4v
+  Size: 3618.0 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/180310MyMovieWithVinnyOverview.m4v
+  Size: 3257.4 MB
+  Directory: Walkabout2018/180308ProjectDefinition
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180310MyMovieWithVinnyOverview.m4v
+  Size: 3257.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180316AlleppeyHouseboat/180318ThePeopleOfTheKeralaBackwaters.m4v
+  Size: 3221.2 MB
+  Directory: Walkabout2018/180316AlleppeyHouseboat
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180318ThePeopleOfTheKeralaBackwaters.m4v
+  Size: 3221.2 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180705HaridwarSunsetRiverCeremonyMridhni.m4v
+  Size: 3165.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180314MediaManagementNeedsNarration.m4v
+  Size: 2805.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308Bungalow.m4v
+  Size: 2384.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180327HaridwarSunsetRiverCeremonyiPhone.m4v
+  Size: 2173.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306ChandysWindyWoods.m4v
+  Size: 2058.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308TeaBungalow.m4v
+  Size: 2001.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180304PondicherryToKerala.m4v
+  Size: 1956.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180308InTheKitchenWithMurralyDuran/180308InTheKitchenWithMullaryduran.m4v
+  Size: 1829.9 MB
+  Directory: Walkabout2018/180308InTheKitchenWithMurralyDuran
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308InTheKitchenWithMullaryduran.m4v
+  Size: 1829.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180310DinnerWithMurralyDuranAndCompany/180310DinnerWithMurralyDuranAndCompany.m4v
+  Size: 1758.7 MB
+  Directory: Walkabout2018/180310DinnerWithMurralyDuranAndCompany
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180310DinnerWithMurralyDuranAndCompany.m4v
+  Size: 1758.7 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180308AMGrounds.m4v
+  Size: 1750.9 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/180222BRoll/180222BRoll.m4v
+  Size: 1719.3 MB
+  Directory: MyMovieWithVinny/180222BRoll
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/190127DavidSohmMemorial.m4v
+  Size: 1478.2 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/Renesan2017/Renesan 2017.fcpbundle/9-18-17 Lecture 2/Shared Items/8oDt0+CuQQW5iDw+ciOB5g/VinnyStart (1920 x 1080).m4v
+  Size: 1310.1 MB
+  Directory: Renesan2017/Renesan 2017.fcpbundle/9-18-17 Lecture 2/Shared Items/8oDt0+CuQQW5iDw+ciOB5g
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303ToMaryFromPondicherry.m4v
+  Size: 1273.3 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180329ContentInHaridwar/180330ContentsCooked.m4v
+  Size: 1267.8 MB
+  Directory: Walkabout2018/180329ContentInHaridwar
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315HARDWorkingWomen.m4v
+  Size: 1254.3 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180317BlackDogToastWithHouseboatCrew.m4v
+  Size: 1211.0 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180325PlanForTheWeekInTheAMFirstMorning.m4v
+  Size: 1186.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303ToVinnyFromPondicherry.m4v
+  Size: 1149.6 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180306ScreeningTeaBungalow.m4v
+  Size: 1118.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Jeff2-Apple Devices HD (Best Quality).m4v
+  Size: 1092.9 MB
+  Directory: 201223JeffFergusonLifeStory
+
+/Volumes/Promise Pegasus/201223JeffFergusonLifeStory/Pops2-Apple Devices HD (Best Quality).m4v
+  Size: 1073.6 MB
+  Directory: 201223JeffFergusonLifeStory
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0009-Apple Devices HD (Best Quality).m4v
+  Size: 1062.2 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315iPhoneVideoTeaBungalow.m4v
+  Size: 1051.0 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180105ScreenDirection.m4v
+  Size: 1027.7 MB
+  Directory: MyMovieWithVinny/MyMovieWithVinnyDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180312GaneshBringsCoffee.m4v
+  Size: 1024.3 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/190205JeffreyAndPop/REC_0002-Apple Devices HD (Best Quality).m4v
+  Size: 920.5 MB
+  Directory: 190205JeffreyAndPop
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180920SeekingTwoGuysFromAlleppy.m4v
+  Size: 918.8 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180313OrderingDeepThought/180313DeepThought.m4v
+  Size: 842.0 MB
+  Directory: Walkabout2018/180313OrderingDeepThought
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313OrderingDeepThoughtToCome.m4v
+  Size: 842.0 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/LAXAndJPL.m4v
+  Size: 829.8 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/Davids Education.m4v
+  Size: 784.0 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180315ExtendedSelfieWithMandNandV.m4v
+  Size: 744.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/Davids Career.m4v
+  Size: 676.5 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/Walkabout2018/180308ProjectDefinition/180309ProjectOverviewDinnerTake.m4v
+  Size: 600.4 MB
+  Directory: Walkabout2018/180308ProjectDefinition
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180309ProjectOverviewDinnerTake.m4v
+  Size: 600.4 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/Walkabout2018/180313TripToTown/180313BlackDogScotchWhiskeyForJohnCook.m4v
+  Size: 542.2 MB
+  Directory: Walkabout2018/180313TripToTown
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180313BlackDogScotchWhiskeyForJohnCook.m4v
+  Size: 542.2 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/JPL.m4v
+  Size: 495.6 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/Walkabout2018/180325ProductionAssistanceFromPeterAndVinny/180325ProductionAssistanceFromSenseiVinnyAndPeterOgilve.m4v
+  Size: 492.3 MB
+  Directory: Walkabout2018/180325ProductionAssistanceFromPeterAndVinny
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/180429WalkaboutSelfie/180429WalkaboutSelfie.m4v
+  Size: 461.3 MB
+  Directory: MyMovieWithVinny/180429WalkaboutSelfie
+
+/Volumes/Promise Pegasus/Walkabout2018/180320AMSuryaudayHaveliShivalaGhat/180320AMSuryaudayHaveliShivalaGhat.m4v
+  Size: 376.9 MB
+  Directory: Walkabout2018/180320AMSuryaudayHaveliShivalaGhat
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/House Fire.m4v
+  Size: 336.1 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/LAX.m4v
+  Size: 336.1 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/David Sohm_slideshow.m4v
+  Size: 305.7 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/Walkabout2018/180306ChandysWindyWoods/180306MonasticCellAtChandysWindyWoods.m4v
+  Size: 186.1 MB
+  Directory: Walkabout2018/180306ChandysWindyWoods
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180305KeralaToMunnar-ChandysWindyWoods.m4v
+  Size: 177.1 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/180429WalkaboutSelfie/180429SoundCheck.m4v
+  Size: 117.7 MB
+  Directory: MyMovieWithVinny/180429WalkaboutSelfie
+
+/Volumes/Promise Pegasus/Walkabout2018/180322OrderingSilkForSweetheart/180321ColorBook.m4v
+  Size: 73.6 MB
+  Directory: Walkabout2018/180322OrderingSilkForSweetheart
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/MyMovieWithVinnyDailies/180224NewProductionSchedule.m4v
+  Size: 69.2 MB
+  Directory: MyMovieWithVinny/MyMovieWithVinnyDailies
+
+/Volumes/Promise Pegasus/PeirceGang/190909LetsDoPeirceAgain.m4v
+  Size: 64.7 MB
+  Directory: PeirceGang
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/Marshmallow.m4v
+  Size: 51.1 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/The Marshmallow Test.m4v
+  Size: 51.1 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/Walkabout2018/WalkaboutDailies/180303PondicherryBrollMacbook.m4v
+  Size: 50.3 MB
+  Directory: Walkabout2018/WalkaboutDailies
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/190227DavidSohmMemorial/StephenJayGouldInSantaRosa.m4v
+  Size: 12.4 MB
+  Directory: MyMovieWithVinny/190227DavidSohmMemorial
+
+/Volumes/Promise Pegasus/MyMovieWithVinny/180419FirstBeardTrimmimgWithAlexTrujillo/TempFilesOnDesktopAtTimeOfCrash/180419FirstBeardTrimmimgWithAlexTrujillo.m4v
+  Size: 0.0 MB
+  Directory: MyMovieWithVinny/180419FirstBeardTrimmimgWithAlexTrujillo/TempFilesOnDesktopAtTimeOfCrash
+
