@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Transcribe finished composites from Pegasus archive.
-Uses Whisper API to transcribe the 130 identified composite videos.
+Re-process failed transcription files (those that were audio_too_large).
+Now that chunking is implemented, this will retry all 28 failed files.
 
 Run with nohup for long operations:
-nohup python3 transcribe_composites.py > logs/transcribe_$(date +%Y%m%d_%H%M%S).log 2>&1 &
+nohup python3 reprocess_failed.py > logs/reprocess_$(date +%Y%m%d_%H%M%S).log 2>&1 &
 """
 
 import os
@@ -20,14 +20,11 @@ import time
 from openai import OpenAI
 
 # Configuration
-TRANSCRIPT_DATABASE = "transcripts.db"  # Central transcript database
-SURVEY_DATABASE = "pegasus-survey.db"   # For updating composite status
+TRANSCRIPT_DATABASE = "transcripts.db"
 COST_ESTIMATE_FILE = "transcription_cost_estimate.json"
-WHISPER_COST_PER_MINUTE = 0.006
-MAX_AUDIO_SIZE_MB = 24  # Whisper limit is 25MB
-
-# Progress tracking
 PROGRESS_FILE = "logs/transcription_progress.json"
+WHISPER_COST_PER_MINUTE = 0.006
+MAX_AUDIO_SIZE_MB = 24
 
 def log(msg):
     """Print timestamped message."""
@@ -93,22 +90,12 @@ def transcribe_audio(client, audio_path):
 
 def calculate_chunk_duration(audio_size_mb, total_duration_seconds):
     """Calculate optimal chunk duration to stay under MAX_AUDIO_SIZE_MB."""
-    # Calculate bytes per second
     bytes_per_second = (audio_size_mb * 1024 * 1024) / total_duration_seconds
-
-    # Target chunk size slightly under limit for safety margin
     target_chunk_mb = MAX_AUDIO_SIZE_MB * 0.95
     target_chunk_bytes = target_chunk_mb * 1024 * 1024
-
-    # Calculate chunk duration
     chunk_duration = target_chunk_bytes / bytes_per_second
-
-    # Round down to whole minutes for cleaner boundaries
     chunk_duration = int(chunk_duration / 60) * 60
-
-    # Ensure at least 5 minutes per chunk
     chunk_duration = max(chunk_duration, 300)
-
     return chunk_duration
 
 def extract_audio_chunk(video_path, output_path, start_time, duration):
@@ -150,8 +137,6 @@ class CombinedTranscript:
 def transcribe_chunked_audio(client, audio_path, video_path, total_duration):
     """Transcribe large audio files by splitting into chunks."""
     audio_size_mb = Path(audio_path).stat().st_size / (1024 * 1024)
-
-    # Calculate optimal chunk duration
     chunk_duration = calculate_chunk_duration(audio_size_mb, total_duration)
     num_chunks = int((total_duration + chunk_duration - 1) / chunk_duration)
 
@@ -162,7 +147,6 @@ def transcribe_chunked_audio(client, audio_path, video_path, total_duration):
 
     for chunk_idx in range(num_chunks):
         start_time = chunk_idx * chunk_duration
-        # Last chunk might be shorter
         duration = min(chunk_duration, total_duration - start_time)
 
         log(f"    Chunk {chunk_idx+1}/{num_chunks}: {start_time/60:.1f}-{(start_time+duration)/60:.1f} min")
@@ -171,24 +155,20 @@ def transcribe_chunked_audio(client, audio_path, video_path, total_duration):
             chunk_path = temp_chunk.name
 
         try:
-            # Extract chunk from original video
             if not extract_audio_chunk(video_path, chunk_path, start_time, duration):
                 raise Exception(f"Failed to extract chunk {chunk_idx+1}")
 
-            # Check chunk size
             chunk_size_mb = Path(chunk_path).stat().st_size / (1024 * 1024)
             log(f"      Chunk size: {chunk_size_mb:.1f} MB")
 
             if chunk_size_mb > MAX_AUDIO_SIZE_MB:
                 raise Exception(f"Chunk {chunk_idx+1} still too large: {chunk_size_mb:.1f}MB")
 
-            # Transcribe chunk
             chunk_transcript = transcribe_audio(client, chunk_path)
 
             if not chunk_transcript:
                 raise Exception(f"Failed to transcribe chunk {chunk_idx+1}")
 
-            # Adjust timestamps and add to combined transcript
             if hasattr(chunk_transcript, 'segments') and chunk_transcript.segments:
                 for seg in chunk_transcript.segments:
                     adjusted_segment = TranscriptSegment(
@@ -199,7 +179,6 @@ def transcribe_chunked_audio(client, audio_path, video_path, total_duration):
                     combined.segments.append(adjusted_segment)
                     chunk_texts.append(seg.text.strip())
             else:
-                # No segments, just text
                 chunk_texts.append(chunk_transcript.text.strip())
 
             log(f"      ✅ Chunk {chunk_idx+1} transcribed")
@@ -208,41 +187,18 @@ def transcribe_chunked_audio(client, audio_path, video_path, total_duration):
             if Path(chunk_path).exists():
                 Path(chunk_path).unlink()
 
-        # Small delay between chunks to avoid rate limiting
         time.sleep(1)
 
-    # Combine all text
     combined.text = " ".join(chunk_texts)
-
     log(f"    ✅ Combined {num_chunks} chunks: {len(combined.segments)} segments, {len(combined.text.split())} words")
 
     return combined
-
-def save_progress(progress):
-    """Save progress to file."""
-    os.makedirs("logs", exist_ok=True)
-    with open(PROGRESS_FILE, 'w') as f:
-        json.dump(progress, f, indent=2)
-
-def load_progress():
-    """Load progress from file."""
-    if os.path.exists(PROGRESS_FILE):
-        with open(PROGRESS_FILE) as f:
-            return json.load(f)
-    return {"completed": [], "failed": [], "skipped": [], "total_cost": 0}
-
-def get_existing_transcripts(conn):
-    """Get set of already-transcribed file paths from central database."""
-    cursor = conn.cursor()
-    cursor.execute("SELECT audio_file_path FROM transcripts")
-    return set(row[0] for row in cursor.fetchall())
 
 def store_transcript(transcript_conn, file_path, transcript, duration_seconds, processing_time):
     """Store transcript in central transcripts.db database."""
     cursor = transcript_conn.cursor()
     now = datetime.now().isoformat()
 
-    # Extract data from transcript
     if hasattr(transcript, 'segments') and transcript.segments:
         full_text = " ".join(seg.text.strip() for seg in transcript.segments)
         segments = transcript.segments
@@ -256,7 +212,6 @@ def store_transcript(transcript_conn, file_path, transcript, duration_seconds, p
     character_count = len(full_text)
     cost = (duration_seconds / 60) * WHISPER_COST_PER_MINUTE
 
-    # Insert into central transcripts table
     cursor.execute("""
         INSERT OR REPLACE INTO transcripts (
             audio_file_path, transcript_text, language, duration_seconds,
@@ -271,7 +226,6 @@ def store_transcript(transcript_conn, file_path, transcript, duration_seconds, p
 
     transcript_id = cursor.lastrowid
 
-    # Insert segments
     for i, segment in enumerate(segments):
         cursor.execute("""
             INSERT INTO transcript_segments (
@@ -285,14 +239,38 @@ def store_transcript(transcript_conn, file_path, transcript, duration_seconds, p
 
     return word_count, segment_count, cost
 
-def process_composite(client, transcript_conn, file_path, duration_seconds):
-    """Process a single composite video."""
+def get_file_duration(file_path):
+    """Get video duration using ffprobe."""
+    cmd = [
+        'ffprobe', '-v', 'error',
+        '-show_entries', 'format=duration',
+        '-of', 'default=noprint_wrappers=1:nokey=1',
+        file_path
+    ]
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        if result.returncode == 0:
+            return float(result.stdout.strip())
+    except Exception as e:
+        log(f"  Error getting duration: {e}")
+
+    return None
+
+def process_failed_file(client, transcript_conn, file_path):
+    """Re-process a single failed file."""
     filename = os.path.basename(file_path)
     log(f"  Processing: {filename[:60]}")
 
     if not os.path.exists(file_path):
         log(f"    File not found, skipping")
         return None, "file_not_found"
+
+    # Get duration
+    duration_seconds = get_file_duration(file_path)
+    if not duration_seconds:
+        log(f"    Could not determine duration, skipping")
+        return None, "no_duration"
 
     start_time = time.time()
 
@@ -341,25 +319,24 @@ def process_composite(client, transcript_conn, file_path, duration_seconds):
 
 def main():
     log("="*70)
-    log("COMPOSITE TRANSCRIPTION PIPELINE")
-    log("Using central transcripts.db database")
+    log("RE-PROCESS FAILED TRANSCRIPTIONS (CHUNKING ENABLED)")
     log("="*70)
 
-    # Load cost estimate with file list
-    if not os.path.exists(COST_ESTIMATE_FILE):
-        log(f"ERROR: {COST_ESTIMATE_FILE} not found. Run calculate_transcription_cost.py first.")
+    # Load progress file with failed list
+    if not os.path.exists(PROGRESS_FILE):
+        log(f"ERROR: {PROGRESS_FILE} not found.")
         sys.exit(1)
 
-    with open(COST_ESTIMATE_FILE) as f:
-        cost_data = json.load(f)
+    with open(PROGRESS_FILE) as f:
+        progress = json.load(f)
 
-    composites = cost_data['composites']
-    total_hours = cost_data['total_duration_hours']
-    estimated_cost = cost_data['estimated_cost_usd']
+    failed_files = progress.get('failed', [])
 
-    log(f"Total composites in list: {len(composites)}")
-    log(f"Total duration: {total_hours:.1f} hours")
-    log(f"Estimated cost (full): ${estimated_cost:.2f}")
+    if not failed_files:
+        log("No failed files to re-process!")
+        return
+
+    log(f"Found {len(failed_files)} failed files to re-process")
     log("")
 
     # Initialize OpenAI client
@@ -370,75 +347,44 @@ def main():
     # Connect to central transcripts database
     transcript_conn = sqlite3.connect(TRANSCRIPT_DATABASE)
 
-    # Get already-transcribed files from central database
-    existing_transcripts = get_existing_transcripts(transcript_conn)
-    log(f"Already transcribed in central database: {len(existing_transcripts)}")
-
-    # Load local progress (for tracking this session)
-    progress = load_progress()
-    failed_paths = set(progress.get('failed', []))
-    log(f"Previously failed (this pipeline): {len(failed_paths)}")
-    log("")
-
-    # Filter to only pending (not in central DB and not failed)
-    pending = []
-    already_done = 0
-    for c in composites:
-        if c['path'] in existing_transcripts:
-            already_done += 1
-        elif c['path'] not in failed_paths:
-            pending.append(c)
-
-    log(f"Already transcribed (skipping): {already_done}")
-    log(f"Remaining to process: {len(pending)}")
-
-    if not pending:
-        log("\n✅ All composites already transcribed!")
-        transcript_conn.close()
-        return
-
-    # Calculate remaining cost
-    remaining_minutes = sum(c['duration_sec'] / 60 for c in pending)
-    remaining_cost = remaining_minutes * WHISPER_COST_PER_MINUTE
-    log(f"Remaining duration: {remaining_minutes / 60:.1f} hours")
-    log(f"Remaining cost: ${remaining_cost:.2f}")
-    log("="*70)
-
-    # Process composites
+    # Process each failed file
     success_count = 0
-    fail_count = 0
+    still_failed = []
     session_cost = 0
 
-    for i, comp in enumerate(pending):
-        file_path = comp['path']
-        duration = comp['duration_sec']
+    for i, file_path in enumerate(failed_files):
+        log(f"\n[{i+1}/{len(failed_files)}] {os.path.basename(file_path)}")
 
-        log(f"\n[{i+1}/{len(pending)}] {os.path.basename(file_path)}")
-
-        cost, status = process_composite(client, transcript_conn, file_path, duration)
+        cost, status = process_failed_file(client, transcript_conn, file_path)
 
         if status == "success":
-            progress['completed'].append(file_path)
             success_count += 1
             session_cost += cost
-            progress['total_cost'] = progress.get('total_cost', 0) + cost
+            # Add to completed list
+            if file_path not in progress['completed']:
+                progress['completed'].append(file_path)
         else:
-            progress['failed'].append(file_path)
-            fail_count += 1
-
-        # Save progress after each file
-        save_progress(progress)
+            # Still failed
+            still_failed.append(file_path)
+            log(f"    Still failed: {status}")
 
         # Small delay to avoid rate limiting
         time.sleep(0.5)
 
+    # Update progress file
+    progress['failed'] = still_failed
+    progress['total_cost'] = progress.get('total_cost', 0) + session_cost
+
+    with open(PROGRESS_FILE, 'w') as f:
+        json.dump(progress, f, indent=2)
+
     # Final summary
     log("\n" + "="*70)
-    log("TRANSCRIPTION SUMMARY")
+    log("RE-PROCESSING SUMMARY")
     log("="*70)
-    log(f"Processed this session: {success_count + fail_count}")
+    log(f"Attempted: {len(failed_files)}")
     log(f"  Success: {success_count}")
-    log(f"  Failed: {fail_count}")
+    log(f"  Still failed: {len(still_failed)}")
     log(f"Session cost: ${session_cost:.2f}")
 
     # Get transcript stats from central database
@@ -450,7 +396,7 @@ def main():
     log(f"  Total words: {total_words or 0:,}")
 
     transcript_conn.close()
-    log("\n✅ Transcription pipeline complete!")
+    log("\n✅ Re-processing complete!")
 
 if __name__ == "__main__":
     main()
